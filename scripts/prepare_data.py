@@ -83,6 +83,20 @@ def normalize_house_prices() -> pd.DataFrame:
     return out.dropna(subset=["year", "house_price_index"])
 
 
+def country_geo_reference(wb: pd.DataFrame) -> pd.DataFrame:
+    countries = wb[["country_code", "country"]].dropna().drop_duplicates()
+    try:
+        import plotly.express as px
+
+        geo = px.data.gapminder()[["iso_alpha", "country", "continent"]].drop_duplicates()
+        geo = geo.rename(columns={"iso_alpha": "country_code", "country": "plotly_country"})
+        countries = countries.merge(geo, on="country_code", how="left")
+    except Exception:
+        countries["plotly_country"] = None
+        countries["continent"] = None
+    return countries
+
+
 def build_features(fuel: pd.DataFrame) -> pd.DataFrame:
     if fuel.empty:
         return fuel
@@ -107,6 +121,7 @@ def main() -> None:
     disasters = normalize_owid(RAW / "owid_disaster_damage.csv", "disaster_damage_usd")
     conflicts = normalize_owid(RAW / "owid_conflict_deaths.csv", "conflict_deaths")
     houses = normalize_house_prices()
+    geo = country_geo_reference(wb)
 
     fuel.to_csv(PROCESSED / "fuel_prices_long.csv", index=False)
     fuel_features.to_csv(PROCESSED / "fuel_price_features.csv", index=False)
@@ -114,6 +129,7 @@ def main() -> None:
     disasters.to_csv(PROCESSED / "disaster_damage.csv", index=False)
     conflicts.to_csv(PROCESSED / "conflict_deaths.csv", index=False)
     houses.to_csv(PROCESSED / "house_prices.csv", index=False)
+    geo.to_csv(PROCESSED / "country_geo_reference.csv", index=False)
 
     yearly_fuel = fuel_features.groupby(["year", "series"], as_index=False).agg(
         fuel_price_avg=("value", "mean"),

@@ -87,6 +87,7 @@ Pages:
 - Overview
 - Price Series Explorer
 - Shock Detection & Events
+- World Geo Heatmap
 - Country Context
 - Correlation Analysis
 - Forecasting & Export

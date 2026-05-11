@@ -21,6 +21,7 @@ def main() -> None:
     conn = duckdb.connect(str(DB_PATH))
     fuel = conn.execute("SELECT * FROM raw_fuel_price_features").fetchdf()
     context = conn.execute("SELECT * FROM mart_country_context").fetchdf()
+    geo_context = conn.execute("SELECT * FROM mart_country_geo_context").fetchdf()
 
     if not fuel.empty:
         stats = fuel.groupby("series", as_index=False).agg(
@@ -85,6 +86,19 @@ def main() -> None:
     if not context.empty:
         numeric = context.select_dtypes(include=[np.number])
         numeric.corr().to_csv(OUTPUTS / "country_context_correlation.csv")
+    if not geo_context.empty:
+        geo_context.to_csv(PROCESSED / "country_geo_context.csv", index=False)
+        focus = geo_context.groupby(["country", "country_code", "continent"], as_index=False).agg(
+            latest_year=("year", "max"),
+            avg_gasoline_price=("gasoline_pump_price_usd_liter", "mean"),
+            avg_diesel_price=("diesel_pump_price_usd_liter", "mean"),
+            max_gasoline_pct_change=("gasoline_price_pct_change", "max"),
+            max_diesel_pct_change=("diesel_price_pct_change", "max"),
+            total_disaster_damage_usd=("disaster_damage_usd", "sum"),
+            total_conflict_deaths=("conflict_deaths", "sum"),
+            latest_population=("population_total", "last"),
+        )
+        focus.to_csv(OUTPUTS / "country_focus_points.csv", index=False)
 
     conn.close()
     print(f"Analysis outputs written to {OUTPUTS}")

@@ -41,6 +41,8 @@ def load_data() -> dict[str, pd.DataFrame]:
         "corr": read_csv(OUTPUTS / "correlation_matrix.csv", index_col=0),
         "context_corr": read_csv(OUTPUTS / "country_context_correlation.csv", index_col=0),
         "country_context": query("select * from mart_country_macro_context"),
+        "geo_context": read_csv(PROCESSED / "country_geo_context.csv"),
+        "focus_points": read_csv(OUTPUTS / "country_focus_points.csv"),
         "global_features": query("select * from mart_global_decision_features"),
         "sources": read_csv(REFERENCE / "source_registry.csv"),
     }
@@ -114,6 +116,82 @@ def country_context() -> None:
     st.dataframe(df.sort_values(["country", "year"], ascending=[True, False]).head(500), width="stretch", hide_index=True)
 
 
+def world_geo_heatmap() -> None:
+    data = load_data()
+    geo = data["geo_context"]
+    focus = data["focus_points"]
+    st.title("World Geo Heatmap & Focus Points")
+    st.caption("Country-year geographic view of fuel variation, disasters, conflicts, population and retail pump prices.")
+    if geo.empty:
+        st.warning("No geographic context available. Run the pipeline first.")
+        return
+
+    metrics = [
+        "gasoline_pump_price_usd_liter",
+        "diesel_pump_price_usd_liter",
+        "gasoline_price_pct_change",
+        "diesel_price_pct_change",
+        "disaster_damage_usd",
+        "conflict_deaths",
+        "population_total",
+        "population_pct_change",
+    ]
+    years = sorted(geo["year"].dropna().astype(int).unique())
+    selected_year = st.slider("Map year", min(years), max(years), max(years))
+    metric = st.selectbox("Map metric", metrics)
+    selected = geo[(geo["year"] == selected_year) & geo["country_code"].notna()].copy()
+    selected[metric] = pd.to_numeric(selected[metric], errors="coerce")
+    map_data = selected.dropna(subset=[metric])
+
+    top_focus = map_data.reindex(map_data[metric].abs().sort_values(ascending=False).index).head(25)
+    c = st.columns(4)
+    c[0].metric("Countries on map", map_data["country"].nunique())
+    c[1].metric("Year", selected_year)
+    c[2].metric("Metric average", round(float(map_data[metric].mean()), 3) if not map_data.empty else "n/a")
+    c[3].metric("Focus points", len(top_focus))
+
+    st.plotly_chart(
+        px.choropleth(
+            map_data,
+            locations="country_code",
+            color=metric,
+            hover_name="country",
+            hover_data=["continent", "gasoline_pump_price_usd_liter", "diesel_pump_price_usd_liter", "disaster_damage_usd", "conflict_deaths", "population_total"],
+            color_continuous_scale="Turbo",
+            title=f"World heatmap: {metric} in {selected_year}",
+        ),
+        width="stretch",
+    )
+    st.plotly_chart(
+        px.scatter_geo(
+            top_focus,
+            locations="country_code",
+            size=metric,
+            color=metric,
+            hover_name="country",
+            hover_data=["continent", "gasoline_price_pct_change", "diesel_price_pct_change", "disaster_damage_usd", "conflict_deaths"],
+            projection="natural earth",
+            title="Focus points: highest absolute metric values",
+            color_continuous_scale="Reds",
+        ),
+        width="stretch",
+    )
+
+    st.subheader("Variation through time")
+    countries = sorted(geo["country"].dropna().unique())
+    defaults = [c for c in ["United States", "Portugal", "Germany", "China", "World"] if c in countries]
+    selected_countries = st.multiselect("Countries for variation chart", countries, default=defaults)
+    series = geo[geo["country"].isin(selected_countries)] if selected_countries else geo
+    st.plotly_chart(px.line(series, x="year", y=metric, color="country", title=f"{metric} variation over time"), width="stretch")
+
+    st.subheader("Statistical view")
+    numeric = geo[metrics].apply(pd.to_numeric, errors="coerce")
+    st.plotly_chart(px.imshow(numeric.corr(), text_auto=True, aspect="auto", title="Geographic context correlation heatmap"), width="stretch")
+    st.dataframe(top_focus.sort_values(metric, ascending=False), width="stretch", hide_index=True)
+    if not focus.empty:
+        st.download_button("Download focus points CSV", focus.to_csv(index=False), "country_focus_points.csv", "text/csv")
+
+
 def correlations() -> None:
     data = load_data()
     st.title("Correlation Analysis")
@@ -143,6 +221,7 @@ PAGES = {
     "Overview": overview,
     "Price Series Explorer": price_series,
     "Shock Detection & Events": shocks_events,
+    "World Geo Heatmap": world_geo_heatmap,
     "Country Context": country_context,
     "Correlation Analysis": correlations,
     "Forecasting & Export": forecasting_export,

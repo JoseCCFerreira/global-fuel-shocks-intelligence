@@ -7,6 +7,14 @@ select
   disaster_damage_usd,
   conflict_deaths,
   house_price_index,
+  country_code,
+  continent,
+  gasoline_price_abs_change,
+  gasoline_price_pct_change,
+  diesel_price_abs_change,
+  diesel_price_pct_change,
+  population_abs_change,
+  population_pct_change,
   disaster_event_flag,
   conflict_event_flag
 from {{ ref('int_country_event_context') }}

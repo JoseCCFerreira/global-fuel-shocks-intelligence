@@ -7,6 +7,14 @@ select
   disaster_damage_usd,
   conflict_deaths,
   house_price_index,
+  country_code,
+  continent,
+  gasoline_price_abs_change,
+  gasoline_price_pct_change,
+  diesel_price_abs_change,
+  diesel_price_pct_change,
+  population_abs_change,
+  population_pct_change,
   case when disaster_damage_usd > 0 then 1 else 0 end as disaster_event_flag,
   case when conflict_deaths > 0 then 1 else 0 end as conflict_event_flag
 from {{ ref('stg_country_context') }}

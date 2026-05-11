@@ -30,6 +30,7 @@ def main() -> None:
     create_table(conn, "raw_disaster_damage", "disaster_damage.csv")
     create_table(conn, "raw_conflict_deaths", "conflict_deaths.csv")
     create_table(conn, "raw_house_prices", "house_prices.csv")
+    create_table(conn, "raw_country_geo_reference", "country_geo_reference.csv")
     create_table(conn, "raw_fuel_yearly_features", "fuel_yearly_features.csv")
 
     conn.execute("DROP VIEW IF EXISTS mart_global_fuel_shocks")
@@ -80,6 +81,24 @@ def main() -> None:
         FULL OUTER JOIN c USING (country, year)
         FULL OUTER JOIN h USING (country, year)
         GROUP BY 1,2
+        """
+    )
+    conn.execute("DROP VIEW IF EXISTS mart_country_geo_context")
+    conn.execute(
+        """
+        CREATE VIEW mart_country_geo_context AS
+        SELECT
+          c.*,
+          g.country_code,
+          g.continent,
+          c.gasoline_pump_price_usd_liter - lag(c.gasoline_pump_price_usd_liter) over (partition by c.country order by c.year) as gasoline_price_abs_change,
+          (c.gasoline_pump_price_usd_liter / nullif(lag(c.gasoline_pump_price_usd_liter) over (partition by c.country order by c.year), 0) - 1) * 100 as gasoline_price_pct_change,
+          c.diesel_pump_price_usd_liter - lag(c.diesel_pump_price_usd_liter) over (partition by c.country order by c.year) as diesel_price_abs_change,
+          (c.diesel_pump_price_usd_liter / nullif(lag(c.diesel_pump_price_usd_liter) over (partition by c.country order by c.year), 0) - 1) * 100 as diesel_price_pct_change,
+          c.population_total - lag(c.population_total) over (partition by c.country order by c.year) as population_abs_change,
+          (c.population_total / nullif(lag(c.population_total) over (partition by c.country order by c.year), 0) - 1) * 100 as population_pct_change
+        FROM mart_country_context c
+        LEFT JOIN raw_country_geo_reference g USING (country)
         """
     )
     conn.close()
