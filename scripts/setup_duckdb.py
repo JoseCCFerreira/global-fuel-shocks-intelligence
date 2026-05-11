@@ -52,15 +52,15 @@ def main() -> None:
         """
         CREATE VIEW mart_country_context AS
         WITH p AS (
-          SELECT country, cast(year AS integer) AS year, indicator_name, value
+          SELECT country, country_code, cast(year AS integer) AS year, indicator_name, value
           FROM raw_world_bank_indicators
         ),
         d AS (
-          SELECT country, cast(year AS integer) AS year, disaster_damage_usd
+          SELECT country, country_code, cast(year AS integer) AS year, disaster_damage_usd
           FROM raw_disaster_damage
         ),
         c AS (
-          SELECT country, cast(year AS integer) AS year, conflict_deaths
+          SELECT country, country_code, cast(year AS integer) AS year, conflict_deaths
           FROM raw_conflict_deaths
         ),
         h AS (
@@ -69,6 +69,11 @@ def main() -> None:
         )
         SELECT
           coalesce(p.country, d.country, c.country, h.country) AS country,
+          coalesce(
+            max(nullif(p.country_code, '')),
+            max(nullif(d.country_code, '')),
+            max(case when length(c.country_code) = 3 and c.country_code not like 'OWID_%' then c.country_code end)
+          ) AS source_country_code,
           coalesce(p.year, d.year, c.year, h.year) AS year,
           max(case when p.indicator_name = 'population_total' then p.value end) AS population_total,
           max(case when p.indicator_name = 'gasoline_pump_price_usd_liter' then p.value end) AS gasoline_pump_price_usd_liter,
@@ -80,7 +85,7 @@ def main() -> None:
         FULL OUTER JOIN d USING (country, year)
         FULL OUTER JOIN c USING (country, year)
         FULL OUTER JOIN h USING (country, year)
-        GROUP BY 1,2
+        GROUP BY 1,3
         """
     )
     conn.execute("DROP VIEW IF EXISTS mart_country_geo_context")
@@ -89,7 +94,7 @@ def main() -> None:
         CREATE VIEW mart_country_geo_context AS
         SELECT
           c.*,
-          g.country_code,
+          coalesce(c.source_country_code, g.country_code) AS country_code,
           g.continent,
           c.gasoline_pump_price_usd_liter - lag(c.gasoline_pump_price_usd_liter) over (partition by c.country order by c.year) as gasoline_price_abs_change,
           (c.gasoline_pump_price_usd_liter / nullif(lag(c.gasoline_pump_price_usd_liter) over (partition by c.country order by c.year), 0) - 1) * 100 as gasoline_price_pct_change,

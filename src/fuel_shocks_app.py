@@ -129,6 +129,11 @@ def world_geo_heatmap() -> None:
     if geo.empty:
         st.warning("No geographic context available. Run the pipeline first.")
         return
+    geo = geo.copy()
+    geo["country_code"] = geo["country_code"].astype("string").str.strip()
+    geo.loc[geo["country_code"].isin(["", "nan", "None", "<NA>"]), "country_code"] = pd.NA
+    geo["is_mappable_country"] = geo["country_code"].notna() & geo["country_code"].str.fullmatch(r"[A-Z]{3}", na=False) & ~geo["country_code"].str.startswith("OWID_", na=False)
+    mappable_geo = geo[geo["is_mappable_country"]].copy()
 
     metric_labels = {
         "disaster_damage_usd": "Disaster damage, USD",
@@ -141,7 +146,7 @@ def world_geo_heatmap() -> None:
         "diesel_price_pct_change": "Diesel pump price change, %",
     }
     metrics = list(metric_labels)
-    availability = {metric: int(pd.to_numeric(geo[metric], errors="coerce").notna().sum()) for metric in metrics if metric in geo.columns}
+    availability = {metric: int(pd.to_numeric(mappable_geo[metric], errors="coerce").notna().sum()) for metric in metrics if metric in mappable_geo.columns}
     default_metric = next((m for m in ["disaster_damage_usd", "conflict_deaths", "population_total"] if availability.get(m, 0) > 0), metrics[0])
     metric = st.selectbox(
         "Map metric",
@@ -149,8 +154,8 @@ def world_geo_heatmap() -> None:
         index=metrics.index(default_metric),
         format_func=lambda value: f"{metric_labels[value]} ({availability.get(value, 0):,} values)",
     )
-    geo[metric] = pd.to_numeric(geo[metric], errors="coerce")
-    valid_years = sorted(geo.loc[geo[metric].notna(), "year"].dropna().astype(int).unique())
+    mappable_geo[metric] = pd.to_numeric(mappable_geo[metric], errors="coerce")
+    valid_years = sorted(mappable_geo.loc[mappable_geo[metric].notna(), "year"].dropna().astype(int).unique())
     if not valid_years:
         st.warning(
             "This country-level metric has no coverage in the current public source. "
@@ -159,14 +164,16 @@ def world_geo_heatmap() -> None:
         st.dataframe(pd.DataFrame({"metric": list(availability), "non_null_values": list(availability.values())}), width="stretch", hide_index=True)
         return
 
-    selected_year = st.slider("Map year", min(valid_years), max(valid_years), max(valid_years))
-    selected = geo[(geo["year"] == selected_year) & geo["country_code"].notna()].copy()
+    year_coverage = mappable_geo[mappable_geo[metric].notna()].groupby("year").size()
+    default_year = int(year_coverage.idxmax()) if not year_coverage.empty else max(valid_years)
+    selected_year = st.slider("Map year", min(valid_years), max(valid_years), default_year)
+    selected = mappable_geo[mappable_geo["year"] == selected_year].copy()
     selected[metric] = pd.to_numeric(selected[metric], errors="coerce")
     map_data = selected.dropna(subset=[metric])
     if map_data.empty:
         closest_year = max((year for year in valid_years if year <= selected_year), default=valid_years[-1])
         selected_year = closest_year
-        selected = geo[(geo["year"] == selected_year) & geo["country_code"].notna()].copy()
+        selected = mappable_geo[mappable_geo["year"] == selected_year].copy()
         map_data = selected.dropna(subset=[metric])
 
     top_focus = map_data.reindex(map_data[metric].abs().sort_values(ascending=False).index).head(25).copy()

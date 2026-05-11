@@ -1,1130 +1,1684 @@
-Entity,Year,Total economic damages
-All disasters,1900,30000000
-All disasters,1901,0
-All disasters,1902,25000000
-All disasters,1903,481600000
-All disasters,1904,0
-All disasters,1905,48800000
-All disasters,1906,648154000
-All disasters,1907,30000000
-All disasters,1908,116000000
-All disasters,1909,22000000
-All disasters,1910,0
-All disasters,1911,20000000
-All disasters,1912,36500000
-All disasters,1913,100000000
-All disasters,1914,20000000
-All disasters,1915,124000000
-All disasters,1916,0
-All disasters,1917,50000000
-All disasters,1918,134000000
-All disasters,1919,25000000
-All disasters,1920,45000000
-All disasters,1921,0
-All disasters,1922,8000000
-All disasters,1923,610000000
-All disasters,1924,0
-All disasters,1925,45000000
-All disasters,1926,129051000
-All disasters,1927,62230000
-All disasters,1928,75000000
-All disasters,1929,55000000
-All disasters,1930,60000000
-All disasters,1931,1447500000
-All disasters,1932,76000000
-All disasters,1933,62400000
-All disasters,1934,64000000
-All disasters,1935,41000000
-All disasters,1936,221000000
-All disasters,1937,438000000
-All disasters,1938,306000000
-All disasters,1939,940000000
-All disasters,1940,43000000
-All disasters,1941,40000000
-All disasters,1942,2500000
-All disasters,1943,1040000000
-All disasters,1944,200000000
-All disasters,1945,512730000
-All disasters,1946,25500000
-All disasters,1947,130000000
-All disasters,1948,1046500000
-All disasters,1949,104200000
-All disasters,1950,227560000
-All disasters,1951,1614410000
-All disasters,1952,152900000
-All disasters,1953,988073000
-All disasters,1954,1246950000
-All disasters,1955,1098800000
-All disasters,1956,85000000
-All disasters,1957,195000000
-All disasters,1958,530100000
-All disasters,1959,839150000
-All disasters,1960,1861041000
-All disasters,1961,480700000
-All disasters,1962,1884000000
-All disasters,1963,1884345000
-All disasters,1964,2411350000
-All disasters,1965,2460951333
-All disasters,1966,2902164333
-All disasters,1967,1266976852
-All disasters,1968,1174669272
-All disasters,1969,2445098620
-All disasters,1970,3186534486
-All disasters,1971,1816969467
-All disasters,1972,4436055447
-All disasters,1973,2426536231
-All disasters,1974,4069725495
-All disasters,1975,3439343180
-All disasters,1976,14415042742
-All disasters,1977,7744831394
-All disasters,1978,7536078173
-All disasters,1979,5085880931
-All disasters,1980,32395367064
-All disasters,1981,11113631326
-All disasters,1982,14721009284
-All disasters,1983,17449582088
-All disasters,1984,9587098158
-All disasters,1985,16988191124
-All disasters,1986,14110928000
-All disasters,1987,14778065000
-All disasters,1988,26314557000
-All disasters,1989,27426740000
-All disasters,1990,43906272355
-All disasters,1991,39062733399
-All disasters,1992,53318328517
-All disasters,1993,53873030420
-All disasters,1994,72422937028
-All disasters,1995,156197520231
-All disasters,1996,42819112050
-All disasters,1997,40309148240
-All disasters,1998,86866587917
-All disasters,1999,108775793893
-All disasters,2000,47001534333
-All disasters,2001,29009589996
-All disasters,2002,52053331772
-All disasters,2003,69704972311
-All disasters,2004,134373434738
-All disasters,2005,216175172703
-All disasters,2006,34560215097
-All disasters,2007,73997689488
-All disasters,2008,191314761411
-All disasters,2009,44532252929
-All disasters,2010,126625020159
-All disasters,2011,371228181045
-All disasters,2012,157739799796
-All disasters,2013,119358060304
-All disasters,2014,96229038546
-All disasters,2015,78176041232
-All disasters,2016,159383338705
-All disasters,2017,327262113482
-All disasters,2018,133920434789
-All disasters,2019,100162581953
-All disasters,2020,177665248418
-All disasters,2021,255841828226
-All disasters,2022,226040485847
-All disasters,2023,206827283059
-All disasters,2024,277482840509
-All disasters,2025,169751602032
-All disasters excluding earthquakes,1900,30000000
-All disasters excluding earthquakes,1902,0
-All disasters excluding earthquakes,1903,481600000
-All disasters excluding earthquakes,1904,0
-All disasters excluding earthquakes,1905,0
-All disasters excluding earthquakes,1906,24154000
-All disasters excluding earthquakes,1907,0
-All disasters excluding earthquakes,1908,0
-All disasters excluding earthquakes,1909,22000000
-All disasters excluding earthquakes,1910,0
-All disasters excluding earthquakes,1911,20000000
-All disasters excluding earthquakes,1912,36500000
-All disasters excluding earthquakes,1913,100000000
-All disasters excluding earthquakes,1914,20000000
-All disasters excluding earthquakes,1915,63000000
-All disasters excluding earthquakes,1916,0
-All disasters excluding earthquakes,1917,50000000
-All disasters excluding earthquakes,1918,105000000
-All disasters excluding earthquakes,1919,25000000
-All disasters excluding earthquakes,1920,20000000
-All disasters excluding earthquakes,1921,0
-All disasters excluding earthquakes,1922,8000000
-All disasters excluding earthquakes,1923,10000000
-All disasters excluding earthquakes,1924,0
-All disasters excluding earthquakes,1925,37000000
-All disasters excluding earthquakes,1926,129051000
-All disasters excluding earthquakes,1927,22230000
-All disasters excluding earthquakes,1928,75000000
-All disasters excluding earthquakes,1929,55000000
-All disasters excluding earthquakes,1930,40000000
-All disasters excluding earthquakes,1931,1407500000
-All disasters excluding earthquakes,1932,76000000
-All disasters excluding earthquakes,1933,23900000
-All disasters excluding earthquakes,1934,64000000
-All disasters excluding earthquakes,1935,41000000
-All disasters excluding earthquakes,1936,221000000
-All disasters excluding earthquakes,1937,438000000
-All disasters excluding earthquakes,1938,306000000
-All disasters excluding earthquakes,1939,0
-All disasters excluding earthquakes,1940,0
-All disasters excluding earthquakes,1941,40000000
-All disasters excluding earthquakes,1942,0
-All disasters excluding earthquakes,1943,900000000
-All disasters excluding earthquakes,1944,100000000
-All disasters excluding earthquakes,1945,487730000
-All disasters excluding earthquakes,1946,500000
-All disasters excluding earthquakes,1947,130000000
-All disasters excluding earthquakes,1948,18000000
-All disasters excluding earthquakes,1949,15000000
-All disasters excluding earthquakes,1950,202560000
-All disasters excluding earthquakes,1951,1591410000
-All disasters excluding earthquakes,1952,62000000
-All disasters excluding earthquakes,1953,377193000
-All disasters excluding earthquakes,1954,1237800000
-All disasters excluding earthquakes,1955,1093800000
-All disasters excluding earthquakes,1956,60000000
-All disasters excluding earthquakes,1957,150000000
-All disasters excluding earthquakes,1958,520000000
-All disasters excluding earthquakes,1959,828150000
-All disasters excluding earthquakes,1960,456041000
-All disasters excluding earthquakes,1961,480700000
-All disasters excluding earthquakes,1962,1854000000
-All disasters excluding earthquakes,1963,879345000
-All disasters excluding earthquakes,1964,1292350000
-All disasters excluding earthquakes,1965,2262951333
-All disasters excluding earthquakes,1966,2546064333
-All disasters excluding earthquakes,1967,1077976852
-All disasters excluding earthquakes,1968,703700272
-All disasters excluding earthquakes,1969,2365778620
-All disasters excluding earthquakes,1970,2584784486
-All disasters excluding earthquakes,1971,980969467
-All disasters excluding earthquakes,1972,3270055447
-All disasters excluding earthquakes,1973,2414136231
-All disasters excluding earthquakes,1974,4056470495
-All disasters excluding earthquakes,1975,3421343180
-All disasters excluding earthquakes,1976,3727042742
-All disasters excluding earthquakes,1977,5662331394
-All disasters excluding earthquakes,1978,6221078173
-All disasters excluding earthquakes,1979,4557730931
-All disasters excluding earthquakes,1980,6927367064
-All disasters excluding earthquakes,1981,9188131326
-All disasters excluding earthquakes,1982,12664059284
-All disasters excluding earthquakes,1983,16428205088
-All disasters excluding earthquakes,1984,9507598158
-All disasters excluding earthquakes,1985,11380191124
-All disasters excluding earthquakes,1986,11101708000
-All disasters excluding earthquakes,1987,12841440000
-All disasters excluding earthquakes,1988,11914057000
-All disasters excluding earthquakes,1989,20555940000
-All disasters excluding earthquakes,1990,34708822355
-All disasters excluding earthquakes,1991,37141233399
-All disasters excluding earthquakes,1992,50654178517
-All disasters excluding earthquakes,1993,52102530420
-All disasters excluding earthquakes,1994,42000261028
-All disasters excluding earthquakes,1995,54911720231
-All disasters excluding earthquakes,1996,42246712050
-All disasters excluding earthquakes,1997,35350805240
-All disasters excluding earthquakes,1998,85646487917
-All disasters excluding earthquakes,1999,67062400893
-All disasters excluding earthquakes,2000,46226631333
-All disasters excluding earthquakes,2001,21646539996
-All disasters excluding earthquakes,2002,49985617772
-All disasters excluding earthquakes,2003,61452121311
-All disasters excluding earthquakes,2004,95603434738
-All disasters excluding earthquakes,2005,209470072703
-All disasters excluding earthquakes,2006,31128762097
-All disasters excluding earthquakes,2007,59025689488
-All disasters excluding earthquakes,2008,105518761411
-All disasters excluding earthquakes,2009,38499092929
-All disasters excluding earthquakes,2010,79324360159
-All disasters excluding earthquakes,2011,140928331045
-All disasters excluding earthquakes,2012,139203485796
-All disasters excluding earthquakes,2013,110241201304
-All disasters excluding earthquakes,2014,89049038546
-All disasters excluding earthquakes,2015,72148189232
-All disasters excluding earthquakes,2016,126388838705
-All disasters excluding earthquakes,2017,317527775482
-All disasters excluding earthquakes,2018,126806434789
-All disasters excluding earthquakes,2019,97753323953
-All disasters excluding earthquakes,2020,162807348418
-All disasters excluding earthquakes,2021,244535937226
-All disasters excluding earthquakes,2022,213545085847
-All disasters excluding earthquakes,2023,154672178059
-All disasters excluding earthquakes,2024,259352840509
-All disasters excluding earthquakes,2025,155800602032
-All disasters excluding extreme temperature,1900,30000000
-All disasters excluding extreme temperature,1901,0
-All disasters excluding extreme temperature,1902,25000000
-All disasters excluding extreme temperature,1903,481600000
-All disasters excluding extreme temperature,1904,0
-All disasters excluding extreme temperature,1905,48800000
-All disasters excluding extreme temperature,1906,648154000
-All disasters excluding extreme temperature,1907,30000000
-All disasters excluding extreme temperature,1908,116000000
-All disasters excluding extreme temperature,1909,22000000
-All disasters excluding extreme temperature,1910,0
-All disasters excluding extreme temperature,1911,20000000
-All disasters excluding extreme temperature,1912,36500000
-All disasters excluding extreme temperature,1913,100000000
-All disasters excluding extreme temperature,1914,20000000
-All disasters excluding extreme temperature,1915,124000000
-All disasters excluding extreme temperature,1916,0
-All disasters excluding extreme temperature,1917,50000000
-All disasters excluding extreme temperature,1918,134000000
-All disasters excluding extreme temperature,1919,25000000
-All disasters excluding extreme temperature,1920,45000000
-All disasters excluding extreme temperature,1921,0
-All disasters excluding extreme temperature,1922,8000000
-All disasters excluding extreme temperature,1923,610000000
-All disasters excluding extreme temperature,1924,0
-All disasters excluding extreme temperature,1925,45000000
-All disasters excluding extreme temperature,1926,129051000
-All disasters excluding extreme temperature,1927,62230000
-All disasters excluding extreme temperature,1928,75000000
-All disasters excluding extreme temperature,1929,55000000
-All disasters excluding extreme temperature,1930,60000000
-All disasters excluding extreme temperature,1931,1447500000
-All disasters excluding extreme temperature,1932,76000000
-All disasters excluding extreme temperature,1933,62400000
-All disasters excluding extreme temperature,1934,64000000
-All disasters excluding extreme temperature,1935,41000000
-All disasters excluding extreme temperature,1936,221000000
-All disasters excluding extreme temperature,1937,438000000
-All disasters excluding extreme temperature,1938,306000000
-All disasters excluding extreme temperature,1939,940000000
-All disasters excluding extreme temperature,1940,43000000
-All disasters excluding extreme temperature,1941,40000000
-All disasters excluding extreme temperature,1942,2500000
-All disasters excluding extreme temperature,1943,1040000000
-All disasters excluding extreme temperature,1944,200000000
-All disasters excluding extreme temperature,1945,512730000
-All disasters excluding extreme temperature,1946,25500000
-All disasters excluding extreme temperature,1947,130000000
-All disasters excluding extreme temperature,1948,1046500000
-All disasters excluding extreme temperature,1949,104200000
-All disasters excluding extreme temperature,1950,227560000
-All disasters excluding extreme temperature,1951,1514410000
-All disasters excluding extreme temperature,1952,152900000
-All disasters excluding extreme temperature,1953,988073000
-All disasters excluding extreme temperature,1954,1246950000
-All disasters excluding extreme temperature,1955,1098800000
-All disasters excluding extreme temperature,1956,85000000
-All disasters excluding extreme temperature,1957,195000000
-All disasters excluding extreme temperature,1958,10100000
-All disasters excluding extreme temperature,1959,839150000
-All disasters excluding extreme temperature,1960,1861041000
-All disasters excluding extreme temperature,1961,480700000
-All disasters excluding extreme temperature,1962,1884000000
-All disasters excluding extreme temperature,1963,1884345000
-All disasters excluding extreme temperature,1964,2411350000
-All disasters excluding extreme temperature,1965,2460951333
-All disasters excluding extreme temperature,1966,2902164333
-All disasters excluding extreme temperature,1967,1266976852
-All disasters excluding extreme temperature,1968,1174669272
-All disasters excluding extreme temperature,1969,2445098620
-All disasters excluding extreme temperature,1970,3186534486
-All disasters excluding extreme temperature,1971,1716969467
-All disasters excluding extreme temperature,1972,4436055447
-All disasters excluding extreme temperature,1973,2426536231
-All disasters excluding extreme temperature,1974,4069725495
-All disasters excluding extreme temperature,1975,2839343180
-All disasters excluding extreme temperature,1976,14415042742
-All disasters excluding extreme temperature,1977,4944831394
-All disasters excluding extreme temperature,1978,7536078173
-All disasters excluding extreme temperature,1979,5005880931
-All disasters excluding extreme temperature,1980,30395367064
-All disasters excluding extreme temperature,1981,11113631326
-All disasters excluding extreme temperature,1982,14721009284
-All disasters excluding extreme temperature,1983,17449582088
-All disasters excluding extreme temperature,1984,9587098158
-All disasters excluding extreme temperature,1985,16844191124
-All disasters excluding extreme temperature,1986,12360928000
-All disasters excluding extreme temperature,1987,14778065000
-All disasters excluding extreme temperature,1988,26313957000
-All disasters excluding extreme temperature,1989,27426740000
-All disasters excluding extreme temperature,1990,43817022355
-All disasters excluding extreme temperature,1991,38290733399
-All disasters excluding extreme temperature,1992,51879732491
-All disasters excluding extreme temperature,1993,52283626446
-All disasters excluding extreme temperature,1994,71947937028
-All disasters excluding extreme temperature,1995,155363220231
-All disasters excluding extreme temperature,1996,42819112050
-All disasters excluding extreme temperature,1997,40276148240
-All disasters excluding extreme temperature,1998,82591587917
-All disasters excluding extreme temperature,1999,107775793893
-All disasters excluding extreme temperature,2000,46631375333
-All disasters excluding extreme temperature,2001,28809479996
-All disasters excluding extreme temperature,2002,52053331772
-All disasters excluding extreme temperature,2003,57184972311
-All disasters excluding extreme temperature,2004,134373434738
-All disasters excluding extreme temperature,2005,215775172703
-All disasters excluding extreme temperature,2006,33560215097
-All disasters excluding extreme temperature,2007,73997689488
-All disasters excluding extreme temperature,2008,169374761411
-All disasters excluding extreme temperature,2009,43421692490
-All disasters excluding extreme temperature,2010,126173580598
-All disasters excluding extreme temperature,2011,370447058045
-All disasters excluding extreme temperature,2012,157586998796
-All disasters excluding extreme temperature,2013,117958060304
-All disasters excluding extreme temperature,2014,93711038546
-All disasters excluding extreme temperature,2015,78082041232
-All disasters excluding extreme temperature,2016,157604338705
-All disasters excluding extreme temperature,2017,327262113482
-All disasters excluding extreme temperature,2018,133920434789
-All disasters excluding extreme temperature,2019,100162581953
-All disasters excluding extreme temperature,2020,177665248418
-All disasters excluding extreme temperature,2021,250241828226
-All disasters excluding extreme temperature,2022,226040485847
-All disasters excluding extreme temperature,2023,206277283059
-All disasters excluding extreme temperature,2024,277482840509
-All disasters excluding extreme temperature,2025,167751602032
-Drought,1900,0
-Drought,1903,0
-Drought,1906,0
-Drought,1907,0
-Drought,1910,0
-Drought,1911,0
-Drought,1912,0
-Drought,1913,0
-Drought,1914,0
-Drought,1919,0
-Drought,1920,0
-Drought,1921,0
-Drought,1922,0
-Drought,1923,0
-Drought,1928,0
-Drought,1931,0
-Drought,1932,0
-Drought,1933,0
-Drought,1934,0
-Drought,1935,0
-Drought,1936,0
-Drought,1937,0
-Drought,1938,0
-Drought,1939,0
-Drought,1940,0
-Drought,1941,0
-Drought,1942,0
-Drought,1943,0
-Drought,1944,0
-Drought,1946,0
-Drought,1947,0
-Drought,1960,0
-Drought,1961,0
-Drought,1963,0
-Drought,1964,0
-Drought,1965,60451333
-Drought,1966,33333333
-Drought,1967,233350852
-Drought,1968,214031272
-Drought,1969,245799620
-Drought,1970,43040486
-Drought,1971,44680467
-Drought,1972,130642447
-Drought,1973,119183231
-Drought,1974,39480495
-Drought,1975,39523180
-Drought,1976,23903742
-Drought,1977,923390394
-Drought,1978,3243871173
-Drought,1979,955795931
-Drought,1980,1127310064
-Drought,1981,4834743326
-Drought,1982,3374855112
-Drought,1983,1585505260
-Drought,1984,830756158
-Drought,1985,876124124
-Drought,1986,500000000
-Drought,1987,0
-Drought,1988,1801287000
-Drought,1989,1600000000
-Drought,1990,2321141529
-Drought,1991,3776786892
-Drought,1992,2577302824
-Drought,1993,1340255986
-Drought,1994,15258101488
-Drought,1995,1494020121
-Drought,1996,1781130160
-Drought,1997,1148333639
-Drought,1998,808666518
-Drought,1999,5869435893
-Drought,2000,4085263333
-Drought,2001,2611197692
-Drought,2002,8356046076
-Drought,2003,750396849
-Drought,2004,761087200
-Drought,2005,2692307800
-Drought,2006,3135573000
-Drought,2007,449192488
-Drought,2008,290311502
-Drought,2009,1590702399
-Drought,2010,4156874929
-Drought,2011,10108318682
-Drought,2012,24924482828
-Drought,2013,1761026104
-Drought,2014,7718778746
-Drought,2015,12728518091
-Drought,2016,14668312502
-Drought,2017,7425521574
-Drought,2018,8759215122
-Drought,2019,961466613
-Drought,2020,7608460758
-Drought,2021,15771028322
-Drought,2022,34909284686
-Drought,2023,21858849124
-Drought,2024,13552620953
-Drought,2025,8178463577
-Earthquake,1900,0
-Earthquake,1901,0
-Earthquake,1902,25000000
-Earthquake,1903,0
-Earthquake,1904,0
-Earthquake,1905,48800000
-Earthquake,1906,624000000
-Earthquake,1907,30000000
-Earthquake,1908,116000000
-Earthquake,1909,0
-Earthquake,1910,0
-Earthquake,1911,0
-Earthquake,1912,0
-Earthquake,1913,0
-Earthquake,1914,0
-Earthquake,1915,61000000
-Earthquake,1916,0
-Earthquake,1917,0
-Earthquake,1918,29000000
-Earthquake,1920,25000000
-Earthquake,1922,0
-Earthquake,1923,600000000
-Earthquake,1924,0
-Earthquake,1925,8000000
-Earthquake,1926,0
-Earthquake,1927,40000000
-Earthquake,1928,0
-Earthquake,1929,0
-Earthquake,1930,20000000
-Earthquake,1931,40000000
-Earthquake,1932,0
-Earthquake,1933,38500000
-Earthquake,1934,0
-Earthquake,1935,0
-Earthquake,1936,0
-Earthquake,1937,0
-Earthquake,1938,0
-Earthquake,1939,940000000
-Earthquake,1940,43000000
-Earthquake,1941,0
-Earthquake,1942,2500000
-Earthquake,1943,140000000
-Earthquake,1944,100000000
-Earthquake,1945,25000000
-Earthquake,1946,25000000
-Earthquake,1947,0
-Earthquake,1948,1028500000
-Earthquake,1949,89200000
-Earthquake,1950,25000000
-Earthquake,1951,23000000
-Earthquake,1952,90900000
-Earthquake,1953,610880000
-Earthquake,1954,9150000
-Earthquake,1955,5000000
-Earthquake,1956,25000000
-Earthquake,1957,45000000
-Earthquake,1958,10100000
-Earthquake,1959,11000000
-Earthquake,1960,1405000000
-Earthquake,1961,0
-Earthquake,1962,30000000
-Earthquake,1963,1005000000
-Earthquake,1964,1119000000
-Earthquake,1965,198000000
-Earthquake,1966,356100000
-Earthquake,1967,189000000
-Earthquake,1968,470969000
-Earthquake,1969,79320000
-Earthquake,1970,601750000
-Earthquake,1971,836000000
-Earthquake,1972,1166000000
-Earthquake,1973,12400000
-Earthquake,1974,13255000
-Earthquake,1975,18000000
-Earthquake,1976,10688000000
-Earthquake,1977,2082500000
-Earthquake,1978,1315000000
-Earthquake,1979,528150000
-Earthquake,1980,25468000000
-Earthquake,1981,1925500000
-Earthquake,1982,2056950000
-Earthquake,1983,1021377000
-Earthquake,1984,79500000
-Earthquake,1985,5608000000
-Earthquake,1986,3009220000
-Earthquake,1987,1936625000
-Earthquake,1988,14400500000
-Earthquake,1989,6870800000
-Earthquake,1990,9197450000
-Earthquake,1991,1921500000
-Earthquake,1992,2664150000
-Earthquake,1993,1770500000
-Earthquake,1994,30422676000
-Earthquake,1995,101285800000
-Earthquake,1996,572400000
-Earthquake,1997,4958343000
-Earthquake,1998,1220100000
-Earthquake,1999,41713393000
-Earthquake,2000,774903000
-Earthquake,2001,7363050000
-Earthquake,2002,2067714000
-Earthquake,2003,8252851000
-Earthquake,2004,38770000000
-Earthquake,2005,6705100000
-Earthquake,2006,3431453000
-Earthquake,2007,14972000000
-Earthquake,2008,85796000000
-Earthquake,2009,6033160000
-Earthquake,2010,47300660000
-Earthquake,2011,230299850000
-Earthquake,2012,18536314000
-Earthquake,2013,9116859000
-Earthquake,2014,7180000000
-Earthquake,2015,6027852000
-Earthquake,2016,32994500000
-Earthquake,2017,9734338000
-Earthquake,2018,7114000000
-Earthquake,2019,2409258000
-Earthquake,2020,14857900000
-Earthquake,2021,11305891000
-Earthquake,2022,12495400000
-Earthquake,2023,52155105000
-Earthquake,2024,18130000000
-Earthquake,2025,13951000000
-Extreme temperature,1936,0
-Extreme temperature,1951,100000000
-Extreme temperature,1953,0
-Extreme temperature,1955,0
-Extreme temperature,1958,520000000
-Extreme temperature,1961,0
-Extreme temperature,1962,0
-Extreme temperature,1963,0
-Extreme temperature,1965,0
-Extreme temperature,1966,0
-Extreme temperature,1968,0
-Extreme temperature,1971,100000000
-Extreme temperature,1972,0
-Extreme temperature,1973,0
-Extreme temperature,1975,600000000
-Extreme temperature,1977,2800000000
-Extreme temperature,1978,0
-Extreme temperature,1979,80000000
-Extreme temperature,1980,2000000000
-Extreme temperature,1981,0
-Extreme temperature,1982,0
-Extreme temperature,1983,0
-Extreme temperature,1984,0
-Extreme temperature,1985,144000000
-Extreme temperature,1986,1750000000
-Extreme temperature,1987,0
-Extreme temperature,1988,600000
-Extreme temperature,1989,0
-Extreme temperature,1990,89250000
-Extreme temperature,1991,772000000
-Extreme temperature,1992,1438596026
-Extreme temperature,1993,1589403974
-Extreme temperature,1994,475000000
-Extreme temperature,1995,834300000
-Extreme temperature,1996,0
-Extreme temperature,1997,33000000
-Extreme temperature,1998,4275000000
-Extreme temperature,1999,1000000000
-Extreme temperature,2000,370159000
-Extreme temperature,2001,200110000
-Extreme temperature,2002,0
-Extreme temperature,2003,12520000000
-Extreme temperature,2004,0
-Extreme temperature,2005,400000000
-Extreme temperature,2006,1000000000
-Extreme temperature,2007,0
-Extreme temperature,2008,21940000000
-Extreme temperature,2009,1110560439
-Extreme temperature,2010,451439561
-Extreme temperature,2011,781123000
-Extreme temperature,2012,152801000
-Extreme temperature,2013,1400000000
-Extreme temperature,2014,2518000000
-Extreme temperature,2015,94000000
-Extreme temperature,2016,1779000000
-Extreme temperature,2017,0
-Extreme temperature,2018,0
-Extreme temperature,2019,0
-Extreme temperature,2020,0
-Extreme temperature,2021,5600000000
-Extreme temperature,2022,0
-Extreme temperature,2023,550000000
-Extreme temperature,2024,0
-Extreme temperature,2025,2000000000
-Extreme weather,1900,30000000
-Extreme weather,1902,0
-Extreme weather,1903,1000000
-Extreme weather,1904,0
-Extreme weather,1905,0
-Extreme weather,1906,24154000
-Extreme weather,1909,15000000
-Extreme weather,1910,0
-Extreme weather,1911,20000000
-Extreme weather,1912,36500000
-Extreme weather,1913,100000000
-Extreme weather,1914,0
-Extreme weather,1915,63000000
-Extreme weather,1916,0
-Extreme weather,1917,50000000
-Extreme weather,1918,5000000
-Extreme weather,1919,25000000
-Extreme weather,1920,0
-Extreme weather,1922,0
-Extreme weather,1923,10000000
-Extreme weather,1924,0
-Extreme weather,1925,18000000
-Extreme weather,1926,98051000
-Extreme weather,1927,22000000
-Extreme weather,1928,75000000
-Extreme weather,1929,55000000
-Extreme weather,1930,40000000
-Extreme weather,1931,7500000
-Extreme weather,1932,76000000
-Extreme weather,1933,23900000
-Extreme weather,1934,52000000
-Extreme weather,1935,8000000
-Extreme weather,1936,21000000
-Extreme weather,1937,0
-Extreme weather,1938,306000000
-Extreme weather,1939,0
-Extreme weather,1940,0
-Extreme weather,1941,40000000
-Extreme weather,1942,0
-Extreme weather,1943,0
-Extreme weather,1944,100000000
-Extreme weather,1945,407730000
-Extreme weather,1946,500000
-Extreme weather,1947,100000000
-Extreme weather,1948,18000000
-Extreme weather,1949,0
-Extreme weather,1950,102560000
-Extreme weather,1951,142410000
-Extreme weather,1952,62000000
-Extreme weather,1953,77193000
-Extreme weather,1954,1186800000
-Extreme weather,1955,1093800000
-Extreme weather,1956,60000000
-Extreme weather,1957,150000000
-Extreme weather,1958,0
-Extreme weather,1959,828150000
-Extreme weather,1960,456041000
-Extreme weather,1961,480700000
-Extreme weather,1962,1554000000
-Extreme weather,1963,879345000
-Extreme weather,1964,399150000
-Extreme weather,1965,1669400000
-Extreme weather,1966,306122000
-Extreme weather,1967,451200000
-Extreme weather,1968,61488000
-Extreme weather,1969,1568359000
-Extreme weather,1970,1068974000
-Extreme weather,1971,277989000
-Extreme weather,1972,2704920000
-Extreme weather,1973,539260000
-Extreme weather,1974,3127818000
-Extreme weather,1975,1700261000
-Extreme weather,1976,3014907000
-Extreme weather,1977,1183860000
-Extreme weather,1978,1866084000
-Extreme weather,1979,3293186000
-Extreme weather,1980,1794957000
-Extreme weather,1981,1718709000
-Extreme weather,1982,4500783000
-Extreme weather,1983,5433605000
-Extreme weather,1984,5482342000
-Extreme weather,1985,5830948000
-Extreme weather,1986,5040558000
-Extreme weather,1987,6569945000
-Extreme weather,1988,2426376000
-Extreme weather,1989,10353299000
-Extreme weather,1990,26208835000
-Extreme weather,1991,17536723000
-Extreme weather,1992,37598250000
-Extreme weather,1993,14383411000
-Extreme weather,1994,5392592000
-Extreme weather,1995,24996834000
-Extreme weather,1996,10757643000
-Extreme weather,1997,7523549591
-Extreme weather,1998,32964751409
-Extreme weather,1999,43341098000
-Extreme weather,2000,12949580000
-Extreme weather,2001,14068012000
-Extreme weather,2002,14699852000
-Extreme weather,2003,21359290000
-Extreme weather,2004,84262635000
-Extreme weather,2005,184832468142
-Extreme weather,2006,17708727858
-Extreme weather,2007,29806476000
-Extreme weather,2008,60728103000
-Extreme weather,2009,26119655000
-Extreme weather,2010,28387083000
-Extreme weather,2011,50872148000
-Extreme weather,2012,85786579000
-Extreme weather,2013,52602364000
-Extreme weather,2014,40220072000
-Extreme weather,2015,34352546000
-Extreme weather,2016,45971171000
-Extreme weather,2017,272589109252
-Extreme weather,2018,73734467667
-Extreme weather,2019,57637098000
-Extreme weather,2020,90782886000
-Extreme weather,2021,137598235000
-Extreme weather,2022,131064323065
-Extreme weather,2023,101779295935
-Extreme weather,2024,195630742000
-Extreme weather,2025,62953342011
-Flood,1900,0
-Flood,1903,480600000
-Flood,1907,0
-Flood,1909,0
-Flood,1910,0
-Flood,1911,0
-Flood,1915,0
-Flood,1916,0
-Flood,1917,0
-Flood,1920,20000000
-Flood,1924,0
-Flood,1925,19000000
-Flood,1926,31000000
-Flood,1927,230000
-Flood,1928,0
-Flood,1930,0
-Flood,1931,1400000000
-Flood,1933,0
-Flood,1934,12000000
-Flood,1935,33000000
-Flood,1936,200000000
-Flood,1937,438000000
-Flood,1938,0
-Flood,1939,0
-Flood,1940,0
-Flood,1943,900000000
-Flood,1947,0
-Flood,1948,0
-Flood,1949,15000000
-Flood,1950,100000000
-Flood,1951,1329000000
-Flood,1952,0
-Flood,1953,300000000
-Flood,1954,51000000
-Flood,1955,0
-Flood,1956,0
-Flood,1957,0
-Flood,1958,0
-Flood,1959,0
-Flood,1960,0
-Flood,1961,0
-Flood,1962,100000000
-Flood,1963,0
-Flood,1964,893200000
-Flood,1965,522100000
-Flood,1966,2206582000
-Flood,1967,324926000
-Flood,1968,417181000
-Flood,1969,551420000
-Flood,1970,1372770000
-Flood,1971,556300000
-Flood,1972,434493000
-Flood,1973,1730993000
-Flood,1974,867472000
-Flood,1975,1081559000
-Flood,1976,587553000
-Flood,1977,719913000
-Flood,1978,1111123000
-Flood,1979,215283000
-Flood,1980,1145100000
-Flood,1981,2634679000
-Flood,1982,3811421172
-Flood,1983,7613454828
-Flood,1984,3149500000
-Flood,1985,3400950000
-Flood,1986,3811150000
-Flood,1987,5434695000
-Flood,1988,7685794000
-Flood,1989,3896100000
-Flood,1990,4386595826
-Flood,1991,12219123507
-Flood,1992,8186729667
-Flood,1993,32820481460
-Flood,1994,20550267540
-Flood,1995,27415055110
-Flood,1996,27958638890
-Flood,1997,18312422010
-Flood,1998,44063161990
-Flood,1999,15612131000
-Flood,2000,25798502000
-Flood,2001,4652574000
-Flood,2002,26303511000
-Flood,2003,20677923462
-Flood,2004,10570762538
-Flood,2005,17684741206
-Flood,2006,8060870794
-Flood,2007,24172567000
-Flood,2008,20028346909
-Flood,2009,8004175091
-Flood,2010,42841884669
-Flood,2011,76059074697
-Flood,2012,27206289634
-Flood,2013,53395411200
-Flood,2014,37874187800
-Flood,2015,20925305141
-Flood,2016,56958355203
-Flood,2017,20443844656
-Flood,2018,19714152000
-Flood,2019,35883100000
-Flood,2020,52388661000
-Flood,2021,75817761904
-Flood,2022,45277478096
-Flood,2023,23634033000
-Flood,2024,45044367556
-Flood,2025,28778796444
-Landslide,1903,0
-Landslide,1905,0
-Landslide,1908,0
-Landslide,1909,7000000
-Landslide,1910,0
-Landslide,1915,0
-Landslide,1923,0
-Landslide,1926,0
-Landslide,1930,0
-Landslide,1931,0
-Landslide,1932,0
-Landslide,1934,0
-Landslide,1936,0
-Landslide,1937,0
-Landslide,1938,0
-Landslide,1941,0
-Landslide,1948,0
-Landslide,1949,0
-Landslide,1950,0
-Landslide,1951,20000000
-Landslide,1952,0
-Landslide,1954,0
-Landslide,1955,0
-Landslide,1956,0
-Landslide,1958,0
-Landslide,1959,0
-Landslide,1960,0
-Landslide,1961,0
-Landslide,1962,200000000
-Landslide,1963,0
-Landslide,1964,0
-Landslide,1965,0
-Landslide,1966,27000
-Landslide,1967,0
-Landslide,1968,0
-Landslide,1969,0
-Landslide,1970,0
-Landslide,1971,0
-Landslide,1972,0
-Landslide,1973,0
-Landslide,1974,21700000
-Landslide,1975,0
-Landslide,1976,100000000
-Landslide,1977,11000000
-Landslide,1978,0
-Landslide,1979,2466000
-Landslide,1980,0
-Landslide,1981,0
-Landslide,1982,700000000
-Landslide,1983,988800000
-Landslide,1984,43000000
-Landslide,1985,0
-Landslide,1986,0
-Landslide,1987,626800000
-Landslide,1988,0
-Landslide,1989,423341000
-Landslide,1990,0
-Landslide,1991,6400000
-Landslide,1992,432100000
-Landslide,1993,968490000
-Landslide,1994,62300000
-Landslide,1995,36289000
-Landslide,1996,20000000
-Landslide,1997,16300000
-Landslide,1998,918700000
-Landslide,1999,749100000
-Landslide,2000,462000000
-Landslide,2001,70600000
-Landslide,2002,192500000
-Landslide,2003,49511000
-Landslide,2004,5950000
-Landslide,2005,55000000
-Landslide,2006,40146000
-Landslide,2007,0
-Landslide,2008,0
-Landslide,2009,159000000
-Landslide,2010,1417078000
-Landslide,2011,0
-Landslide,2012,0
-Landslide,2013,8000000
-Landslide,2014,273000000
-Landslide,2015,8000000
-Landslide,2016,725000000
-Landslide,2017,147300000
-Landslide,2018,928036000
-Landslide,2019,200000000
-Landslide,2020,130000000
-Landslide,2021,250000000
-Landslide,2022,0
-Landslide,2023,0
-Landslide,2024,345110000
-Landslide,2025,0
-Volcanic activity,1900,0
-Volcanic activity,1902,0
-Volcanic activity,1903,0
-Volcanic activity,1906,0
-Volcanic activity,1911,0
-Volcanic activity,1914,20000000
-Volcanic activity,1919,0
-Volcanic activity,1926,0
-Volcanic activity,1930,0
-Volcanic activity,1931,0
-Volcanic activity,1937,0
-Volcanic activity,1943,0
-Volcanic activity,1944,0
-Volcanic activity,1945,80000000
-Volcanic activity,1946,0
-Volcanic activity,1948,0
-Volcanic activity,1949,0
-Volcanic activity,1950,0
-Volcanic activity,1951,0
-Volcanic activity,1952,0
-Volcanic activity,1953,0
-Volcanic activity,1954,0
-Volcanic activity,1956,0
-Volcanic activity,1957,0
-Volcanic activity,1960,0
-Volcanic activity,1963,0
-Volcanic activity,1964,0
-Volcanic activity,1965,10000000
-Volcanic activity,1966,0
-Volcanic activity,1968,10000000
-Volcanic activity,1969,200000
-Volcanic activity,1971,2000000
-Volcanic activity,1973,24700000
-Volcanic activity,1975,0
-Volcanic activity,1976,679000
-Volcanic activity,1977,22000000
-Volcanic activity,1978,0
-Volcanic activity,1979,0
-Volcanic activity,1980,860000000
-Volcanic activity,1981,0
-Volcanic activity,1982,277000000
-Volcanic activity,1983,175190000
-Volcanic activity,1984,0
-Volcanic activity,1985,1000000000
-Volcanic activity,1986,0
-Volcanic activity,1987,0
-Volcanic activity,1988,0
-Volcanic activity,1989,0
-Volcanic activity,1990,8000000
-Volcanic activity,1991,237000000
-Volcanic activity,1992,0
-Volcanic activity,1993,488000
-Volcanic activity,1994,110000000
-Volcanic activity,1995,722000
-Volcanic activity,1996,16500000
-Volcanic activity,1997,8000000
-Volcanic activity,1998,0
-Volcanic activity,1999,0
-Volcanic activity,2000,2214000
-Volcanic activity,2001,16655000
-Volcanic activity,2002,9000000
-Volcanic activity,2003,0
-Volcanic activity,2004,0
-Volcanic activity,2005,0
-Volcanic activity,2006,150000000
-Volcanic activity,2007,0
-Volcanic activity,2008,0
-Volcanic activity,2009,0
-Volcanic activity,2010,0
-Volcanic activity,2011,104000000
-Volcanic activity,2012,0
-Volcanic activity,2013,0
-Volcanic activity,2014,186000000
-Volcanic activity,2015,600000000
-Volcanic activity,2016,0
-Volcanic activity,2017,0
-Volcanic activity,2018,868564000
-Volcanic activity,2019,0
-Volcanic activity,2020,66000000
-Volcanic activity,2021,1345000000
-Volcanic activity,2022,118000000
-Volcanic activity,2023,0
-Volcanic activity,2024,0
-Volcanic activity,2025,0
-Wildfire,1911,0
-Wildfire,1918,100000000
-Wildfire,1922,8000000
-Wildfire,1929,0
-Wildfire,1939,0
-Wildfire,1944,0
-Wildfire,1947,30000000
-Wildfire,1949,0
-Wildfire,1956,0
-Wildfire,1965,1000000
-Wildfire,1966,0
-Wildfire,1967,68500000
-Wildfire,1968,1000000
-Wildfire,1969,0
-Wildfire,1970,100000000
-Wildfire,1973,0
-Wildfire,1976,0
-Wildfire,1977,2168000
-Wildfire,1978,0
-Wildfire,1979,11000000
-Wildfire,1980,0
-Wildfire,1981,0
-Wildfire,1982,0
-Wildfire,1983,631650000
-Wildfire,1984,2000000
-Wildfire,1985,128169000
-Wildfire,1986,0
-Wildfire,1987,210000000
-Wildfire,1989,4283200000
-Wildfire,1990,1695000000
-Wildfire,1991,2593200000
-Wildfire,1992,421200000
-Wildfire,1993,1000000000
-Wildfire,1994,152000000
-Wildfire,1995,134500000
-Wildfire,1996,1712800000
-Wildfire,1997,8309200000
-Wildfire,1998,2616208000
-Wildfire,1999,490636000
-Wildfire,2000,2558913000
-Wildfire,2001,27391304
-Wildfire,2002,424708696
-Wildfire,2003,6095000000
-Wildfire,2004,3000000
-Wildfire,2005,3805555555
-Wildfire,2006,1033444445
-Wildfire,2007,4597454000
-Wildfire,2008,2532000000
-Wildfire,2009,1515000000
-Wildfire,2010,2070000000
-Wildfire,2011,3003666666
-Wildfire,2012,1133333334
-Wildfire,2013,1074400000
-Wildfire,2014,259000000
-Wildfire,2015,3439820000
-Wildfire,2016,6287000000
-Wildfire,2017,16922000000
-Wildfire,2018,22802000000
-Wildfire,2019,3071659340
-Wildfire,2020,11831340660
-Wildfire,2021,8153912000
-Wildfire,2022,2176000000
-Wildfire,2023,6850000000
-Wildfire,2024,4780000000
-Wildfire,2025,53890000000
+Entity,Code,Year,Direct economic loss attributed to disasters (current United States dollars)
+Afghanistan,AFG,2017,58556720
+Afghanistan,AFG,2018,341555712
+Afghanistan,AFG,2019,567657152
+Afghanistan,AFG,2020,0
+Algeria,DZA,2005,725977
+Algeria,DZA,2006,5076101
+Algeria,DZA,2007,12317156
+Algeria,DZA,2008,200856496
+Algeria,DZA,2009,6296180
+Algeria,DZA,2010,917672
+Algeria,DZA,2011,29764090
+Algeria,DZA,2012,69608896
+Algeria,DZA,2013,209601072
+Algeria,DZA,2014,24711396
+Algeria,DZA,2015,86607296
+Algeria,DZA,2016,20013612
+Algeria,DZA,2017,49749076
+Algeria,DZA,2018,42464248
+Algeria,DZA,2019,663547
+Algeria,DZA,2020,36337200
+Algeria,DZA,2021,98014848
+Algeria,DZA,2022,76637720
+Algeria,DZA,2023,12850630
+Andorra,AND,2023,0
+Angola,AGO,2005,30869438
+Angola,AGO,2006,63248248
+Angola,AGO,2007,2981865
+Angola,AGO,2008,6942150
+Angola,AGO,2009,30562020
+Angola,AGO,2010,45092848
+Angola,AGO,2011,141921280
+Angola,AGO,2012,24834732
+Angola,AGO,2013,533030528
+Angola,AGO,2014,3498665984
+Angola,AGO,2015,552227264
+Angola,AGO,2016,600416192
+Angola,AGO,2017,456410624
+Angola,AGO,2018,1613830016
+Angola,AGO,2019,3281972736
+Angola,AGO,2020,156341664
+Antigua and Barbuda,ATG,2008,16683552
+Antigua and Barbuda,ATG,2009,35700
+Antigua and Barbuda,ATG,2010,7156092
+Antigua and Barbuda,ATG,2011,236310
+Antigua and Barbuda,ATG,2012,276156
+Antigua and Barbuda,ATG,2013,207000
+Antigua and Barbuda,ATG,2014,24267314
+Antigua and Barbuda,ATG,2017,135914432
+Antigua and Barbuda,ATG,2020,1927359
+Argentina,ARG,2005,12146746
+Argentina,ARG,2006,83082824
+Argentina,ARG,2007,176833056
+Argentina,ARG,2008,150057936
+Argentina,ARG,2009,43296456
+Argentina,ARG,2010,129047040
+Argentina,ARG,2011,862500
+Argentina,ARG,2012,67981928
+Argentina,ARG,2013,95287496
+Argentina,ARG,2014,71354264
+Argentina,ARG,2016,7965661696
+Argentina,ARG,2017,3069548
+Argentina,ARG,2022,14052412416
+Armenia,ARM,2005,825188
+Armenia,ARM,2006,1301025
+Armenia,ARM,2007,2328450
+Armenia,ARM,2008,1055363
+Armenia,ARM,2009,1372275
+Armenia,ARM,2010,6961088
+Armenia,ARM,2011,341250
+Armenia,ARM,2012,91875
+Armenia,ARM,2013,2197800
+Armenia,ARM,2014,6292350
+Armenia,ARM,2015,3077813
+Armenia,ARM,2016,15455924
+Armenia,ARM,2017,13691036
+Armenia,ARM,2018,13284669
+Armenia,ARM,2019,5413085
+Armenia,ARM,2020,7957253
+Armenia,ARM,2021,13927289
+Armenia,ARM,2022,1580726
+Armenia,ARM,2023,2174014
+Australia,AUS,2009,0
+Australia,AUS,2010,106310584
+Australia,AUS,2011,113518128
+Australia,AUS,2012,6884325
+Australia,AUS,2013,59952752
+Australia,AUS,2014,2559375
+Australia,AUS,2015,78455664
+Australia,AUS,2016,38915664
+Australia,AUS,2017,92571560
+Australia,AUS,2018,186478880
+Australia,AUS,2019,334430368
+Australia,AUS,2020,168778000
+Australia,AUS,2021,149883264
+Australia,AUS,2022,1946999808
+Australia,AUS,2023,392895328
+Austria,AUT,2018,644657664
+Austria,AUT,2019,149159280
+Austria,AUT,2020,208641520
+Austria,AUT,2021,10655808
+Bahrain,BHR,2005,0
+Bahrain,BHR,2007,0
+Bahrain,BHR,2008,0
+Bahrain,BHR,2009,0
+Bahrain,BHR,2010,0
+Bahrain,BHR,2011,0
+Bahrain,BHR,2012,0
+Bahrain,BHR,2013,0
+Bahrain,BHR,2014,0
+Bahrain,BHR,2015,0
+Bahrain,BHR,2016,0
+Bahrain,BHR,2017,0
+Bahrain,BHR,2018,0
+Bahrain,BHR,2019,0
+Bahrain,BHR,2020,0
+Bahrain,BHR,2021,0
+Bahrain,BHR,2022,0
+Bahrain,BHR,2023,0
+Bahrain,BHR,2024,0
+Bangladesh,BGD,2005,0
+Bangladesh,BGD,2006,0
+Bangladesh,BGD,2007,11295345664
+Barbados,BRB,2005,1079700
+Barbados,BRB,2006,896700
+Barbados,BRB,2007,2915352
+Barbados,BRB,2008,1305105
+Barbados,BRB,2009,1533592
+Barbados,BRB,2010,2019548
+Barbados,BRB,2011,1431587
+Barbados,BRB,2012,693750
+Barbados,BRB,2013,1044788
+Barbados,BRB,2014,232869728
+Barbados,BRB,2015,78160952
+Barbados,BRB,2016,1971635
+Barbados,BRB,2017,80396208
+Barbados,BRB,2018,524475
+Belarus,BLR,2015,0
+Belarus,BLR,2016,0
+Belarus,BLR,2017,0
+Belarus,BLR,2018,0
+Belarus,BLR,2019,0
+Belarus,BLR,2020,0
+Belarus,BLR,2021,0
+Belarus,BLR,2022,0
+Belarus,BLR,2023,0
+Belgium,BEL,2005,0
+Belgium,BEL,2006,0
+Belgium,BEL,2007,0
+Belgium,BEL,2008,0
+Belgium,BEL,2009,0
+Belgium,BEL,2010,0
+Belgium,BEL,2011,0
+Belgium,BEL,2012,0
+Belgium,BEL,2013,0
+Belgium,BEL,2014,0
+Belgium,BEL,2017,0
+Belgium,BEL,2018,0
+Belgium,BEL,2019,0
+Belgium,BEL,2021,18000960
+Belgium,BEL,2023,0
+Belize,BLZ,2005,0
+Belize,BLZ,2007,13485
+Belize,BLZ,2008,9400894
+Belize,BLZ,2009,126825
+Belize,BLZ,2010,11446584
+Belize,BLZ,2011,65
+Benin,BEN,2010,2312760064
+Benin,BEN,2011,188611664
+Benin,BEN,2012,91115672
+Benin,BEN,2013,3741224
+Benin,BEN,2014,8742300
+Benin,BEN,2015,12037817
+Benin,BEN,2016,55134000
+Benin,BEN,2017,737081920
+Benin,BEN,2018,119794304
+Benin,BEN,2019,151185040
+Benin,BEN,2020,72496848
+Bhutan,BTN,2005,428663
+Bhutan,BTN,2006,552825
+Bhutan,BTN,2007,467400
+Bhutan,BTN,2008,461250
+Bhutan,BTN,2009,498150
+Bhutan,BTN,2010,544838
+Bhutan,BTN,2011,703463
+Bhutan,BTN,2012,792188
+Bhutan,BTN,2013,976500
+Bhutan,BTN,2014,513338
+Bhutan,BTN,2015,508872576
+Bhutan,BTN,2016,0
+Bhutan,BTN,2017,2152174080
+Bhutan,BTN,2018,243037488
+Bolivia,BOL,2005,10830000
+Bolivia,BOL,2006,23298714
+Bolivia,BOL,2007,14294475
+Bolivia,BOL,2008,55805100
+Bolivia,BOL,2009,9255750
+Bolivia,BOL,2010,12251250
+Bolivia,BOL,2011,40351500
+Bolivia,BOL,2012,25730250
+Bolivia,BOL,2013,10894838
+Bolivia,BOL,2014,21401100
+Bolivia,BOL,2015,5661282
+Bolivia,BOL,2016,812376
+Bolivia,BOL,2017,238753088
+Bolivia,BOL,2018,710089408
+Bolivia,BOL,2019,1089132544
+Bolivia,BOL,2020,51791972
+Bolivia,BOL,2021,17491896
+Botswana,BWA,2013,0
+Botswana,BWA,2015,0
+Botswana,BWA,2016,0
+Botswana,BWA,2017,0
+Botswana,BWA,2018,202364
+Brazil,BRA,2005,6385601
+Brazil,BRA,2006,3035774
+Brazil,BRA,2007,4241881
+Brazil,BRA,2008,8004375
+Brazil,BRA,2009,9135457
+Brazil,BRA,2010,4978704
+Brazil,BRA,2011,6251296
+Brazil,BRA,2012,7390088
+Brazil,BRA,2013,8592008
+Brazil,BRA,2014,7006805
+Bulgaria,BGR,2005,9395928
+Bulgaria,BGR,2006,6751557
+Bulgaria,BGR,2007,22675326
+Bulgaria,BGR,2008,1119125
+Bulgaria,BGR,2009,7820
+Bulgaria,BGR,2010,2176437
+Bulgaria,BGR,2011,413793
+Bulgaria,BGR,2012,14326822
+Bulgaria,BGR,2013,956369
+Bulgaria,BGR,2014,9554326
+Bulgaria,BGR,2015,72124576
+Bulgaria,BGR,2016,17705190
+Bulgaria,BGR,2017,130642056
+Bulgaria,BGR,2018,43817812
+Bulgaria,BGR,2019,18433868
+Bulgaria,BGR,2020,7871205
+Bulgaria,BGR,2021,361940
+Bulgaria,BGR,2022,79237368
+Bulgaria,BGR,2023,56261332
+Burkina Faso,BFA,2005,0
+Burkina Faso,BFA,2007,427432480
+Burkina Faso,BFA,2009,719735104
+Burkina Faso,BFA,2010,87582448
+Burkina Faso,BFA,2012,900600
+Burkina Faso,BFA,2013,1469400
+Burkina Faso,BFA,2014,38085900
+Burkina Faso,BFA,2015,82425000
+Burkina Faso,BFA,2016,149807696
+Burkina Faso,BFA,2017,134307904
+Burkina Faso,BFA,2018,71017048
+Burundi,BDI,2015,16988736
+Burundi,BDI,2016,25776874
+Burundi,BDI,2017,19756308
+Burundi,BDI,2018,152124752
+Burundi,BDI,2019,1747086720
+Burundi,BDI,2020,579957440
+Burundi,BDI,2021,360275424
+Burundi,BDI,2022,277672992
+Burundi,BDI,2023,180494592
+Cambodia,KHM,2005,3005
+Cambodia,KHM,2006,3039
+Cambodia,KHM,2007,6255
+Cambodia,KHM,2008,266
+Cambodia,KHM,2009,25085
+Cambodia,KHM,2010,9263
+Cambodia,KHM,2011,148257
+Cambodia,KHM,2012,36372
+Cambodia,KHM,2013,403323584
+Cambodia,KHM,2014,56187268
+Cambodia,KHM,2015,67526344
+Cambodia,KHM,2016,29362802
+Cambodia,KHM,2017,61577492
+Cambodia,KHM,2018,34683
+Cambodia,KHM,2019,151945456
+Cambodia,KHM,2020,74880
+Cambodia,KHM,2021,0
+Cameroon,CMR,2006,1618431
+Cameroon,CMR,2007,41223376
+Cameroon,CMR,2008,2417850
+Cameroon,CMR,2009,30765488
+Cameroon,CMR,2014,28496476
+Cameroon,CMR,2016,559377
+Cameroon,CMR,2017,168380
+Cameroon,CMR,2018,42296
+Cameroon,CMR,2019,670447168
+Cape Verde,CPV,2006,0
+Cape Verde,CPV,2008,0
+Cape Verde,CPV,2009,26250
+Cape Verde,CPV,2014,6257934
+Cape Verde,CPV,2015,21524
+Cape Verde,CPV,2017,25950
+Chile,CHL,2005,78505504
+Chile,CHL,2006,48769040
+Chile,CHL,2007,118124000
+Chile,CHL,2008,63732204
+Chile,CHL,2009,0
+Chile,CHL,2010,3749201152
+Chile,CHL,2011,17939438
+Chile,CHL,2012,5935125
+Chile,CHL,2013,0
+Chile,CHL,2014,207961920
+Chile,CHL,2015,210315488
+Chile,CHL,2016,12172205
+Chile,CHL,2017,139444560
+Chile,CHL,2018,0
+Chile,CHL,2019,0
+Chile,CHL,2020,0
+Chile,CHL,2021,0
+Chile,CHL,2022,11856038
+Chile,CHL,2023,2285019648
+China,CHN,2022,13691610112
+Colombia,COL,2005,1191784576
+Colombia,COL,2006,100088304
+Colombia,COL,2007,8845858816
+Colombia,COL,2008,9651325952
+Colombia,COL,2009,132007984
+Colombia,COL,2010,11213425664
+Colombia,COL,2011,11384158208
+Colombia,COL,2012,12240346112
+Colombia,COL,2013,2563024128
+Colombia,COL,2014,75893800960
+Colombia,COL,2015,38504321024
+Colombia,COL,2016,50131337216
+Colombia,COL,2017,30283390976
+Colombia,COL,2018,14396174336
+Colombia,COL,2019,75992832
+Colombia,COL,2020,808667712
+Colombia,COL,2021,646148928
+Colombia,COL,2022,147508400
+Colombia,COL,2023,658256896
+Comoros,COM,2006,0
+Comoros,COM,2008,0
+Comoros,COM,2012,5680125
+Comoros,COM,2013,697
+Comoros,COM,2014,3973125
+Comoros,COM,2015,3145538
+Comoros,COM,2017,229425
+Comoros,COM,2018,0
+Comoros,COM,2019,114434776
+Comoros,COM,2022,0
+Comoros,COM,2024,1464915
+Costa Rica,CRI,2005,369033536
+Costa Rica,CRI,2006,27418996
+Costa Rica,CRI,2007,289521344
+Costa Rica,CRI,2008,111495032
+Costa Rica,CRI,2009,538125760
+Costa Rica,CRI,2010,345994304
+Costa Rica,CRI,2011,0
+Costa Rica,CRI,2012,128367504
+Costa Rica,CRI,2013,0
+Costa Rica,CRI,2014,55643292
+Costa Rica,CRI,2015,182130640
+Costa Rica,CRI,2016,56705588
+Costa Rica,CRI,2017,569760704
+Costa Rica,CRI,2018,15772148
+Costa Rica,CRI,2019,61238332
+Costa Rica,CRI,2020,220789840
+Costa Rica,CRI,2021,376333248
+Costa Rica,CRI,2022,22543592
+Costa Rica,CRI,2023,0
+Cote d'Ivoire,CIV,2005,1264050
+Cote d'Ivoire,CIV,2006,5963
+Cote d'Ivoire,CIV,2007,120000
+Cote d'Ivoire,CIV,2010,72450
+Cote d'Ivoire,CIV,2011,12075
+Cote d'Ivoire,CIV,2013,735075
+Cote d'Ivoire,CIV,2014,1766513
+Cote d'Ivoire,CIV,2015,6954750
+Cote d'Ivoire,CIV,2018,8128725
+Cote d'Ivoire,CIV,2019,5748975
+Cote d'Ivoire,CIV,2020,18065600
+Croatia,HRV,2017,374162400
+Croatia,HRV,2022,5151
+Cuba,CUB,2005,1751964288
+Cuba,CUB,2006,23
+Cuba,CUB,2007,855
+Cuba,CUB,2008,7954
+Cuba,CUB,2012,6016
+Cuba,CUB,2016,568348160
+Cuba,CUB,2017,1869982464
+Cuba,CUB,2018,75240088
+Cuba,CUB,2019,82757928
+Cuba,CUB,2020,38707944
+Cuba,CUB,2021,16170618
+Cyprus,CYP,2005,0
+Cyprus,CYP,2006,4236059
+Cyprus,CYP,2007,513045
+Cyprus,CYP,2008,2902
+Cyprus,CYP,2009,1867648
+Cyprus,CYP,2010,687461
+Cyprus,CYP,2011,144672032
+Cyprus,CYP,2012,385913
+Cyprus,CYP,2013,896602
+Cyprus,CYP,2014,506856
+Cyprus,CYP,2015,460890
+Cyprus,CYP,2017,5724775
+Cyprus,CYP,2018,4191750
+Czechia,CZE,2015,0
+Czechia,CZE,2016,5441917
+Czechia,CZE,2017,299509920
+Djibouti,DJI,2005,0
+Djibouti,DJI,2006,0
+Djibouti,DJI,2007,0
+Djibouti,DJI,2008,0
+Djibouti,DJI,2009,0
+Djibouti,DJI,2010,0
+Djibouti,DJI,2011,0
+Djibouti,DJI,2012,0
+Dominica,DMA,2007,20720074
+Dominica,DMA,2009,29250
+Dominica,DMA,2010,248625
+Dominica,DMA,2011,1220100
+Dominica,DMA,2012,116400
+Dominica,DMA,2013,628875
+Dominica,DMA,2014,20109900
+East Timor,TLS,2006,576792512
+East Timor,TLS,2007,48195076
+East Timor,TLS,2008,1870293
+East Timor,TLS,2009,2986200
+East Timor,TLS,2010,29565750
+East Timor,TLS,2011,9778500
+East Timor,TLS,2012,8279999
+East Timor,TLS,2013,17194800
+East Timor,TLS,2014,15347325
+East Timor,TLS,2015,22967884
+East Timor,TLS,2016,2150550
+East Timor,TLS,2017,0
+Ecuador,ECU,2005,17736384
+Ecuador,ECU,2006,28360226
+Ecuador,ECU,2007,25780132
+Ecuador,ECU,2008,113391112
+Ecuador,ECU,2009,19919046
+Ecuador,ECU,2010,4201463
+Ecuador,ECU,2011,19688626
+Ecuador,ECU,2012,134142120
+Ecuador,ECU,2013,24182250
+Ecuador,ECU,2014,40550400
+Ecuador,ECU,2015,18525000
+Ecuador,ECU,2016,348481664
+Ecuador,ECU,2017,199905376
+Ecuador,ECU,2018,27977658
+Ecuador,ECU,2019,70266744
+Ecuador,ECU,2020,22943214
+Ecuador,ECU,2021,34953028
+Ecuador,ECU,2022,154766832
+Ecuador,ECU,2023,246986272
+Egypt,EGY,2005,13595008
+Egypt,EGY,2006,14212348
+Egypt,EGY,2007,14532399
+Egypt,EGY,2008,14855636
+Egypt,EGY,2009,14943739
+Egypt,EGY,2010,2007510
+Egypt,EGY,2011,18253598
+Egypt,EGY,2012,13798189
+Egypt,EGY,2013,15127520
+Egypt,EGY,2014,24208874
+Egypt,EGY,2015,46867604
+Egypt,EGY,2016,28749730
+Egypt,EGY,2017,7626383
+Egypt,EGY,2018,3075312
+Egypt,EGY,2019,1699436
+Egypt,EGY,2020,81045408
+Egypt,EGY,2021,8914059
+Egypt,EGY,2022,10112290
+Egypt,EGY,2023,99450
+El Salvador,SLV,2005,41067244
+El Salvador,SLV,2006,44800784
+El Salvador,SLV,2007,20362356
+El Salvador,SLV,2008,67511512
+El Salvador,SLV,2009,19585130
+El Salvador,SLV,2010,51409488
+El Salvador,SLV,2011,105589008
+El Salvador,SLV,2012,2500872
+El Salvador,SLV,2013,1781550
+El Salvador,SLV,2014,3369543
+El Salvador,SLV,2015,0
+El Salvador,SLV,2023,7898445
+Equatorial Guinea,GNQ,2010,28800
+Equatorial Guinea,GNQ,2012,180413
+Equatorial Guinea,GNQ,2013,20625
+Equatorial Guinea,GNQ,2014,30263
+Equatorial Guinea,GNQ,2015,0
+Equatorial Guinea,GNQ,2016,8783957
+Equatorial Guinea,GNQ,2017,1107750
+Equatorial Guinea,GNQ,2018,0
+Equatorial Guinea,GNQ,2019,0
+Equatorial Guinea,GNQ,2021,8161302
+Estonia,EST,2005,84566600
+Estonia,EST,2006,12545477
+Estonia,EST,2007,0
+Estonia,EST,2008,13388018
+Estonia,EST,2009,0
+Estonia,EST,2010,111252
+Estonia,EST,2011,2783911
+Estonia,EST,2012,0
+Estonia,EST,2013,0
+Estonia,EST,2014,0
+Estonia,EST,2015,3483870
+Estonia,EST,2016,2401980
+Estonia,EST,2017,3581089
+Estonia,EST,2018,0
+Eswatini,SWZ,2005,3540873
+Eswatini,SWZ,2006,4476081
+Eswatini,SWZ,2007,95440624
+Eswatini,SWZ,2008,10786476
+Eswatini,SWZ,2009,351077
+Eswatini,SWZ,2010,3121763
+Eswatini,SWZ,2011,1146405
+Eswatini,SWZ,2012,5227356
+Eswatini,SWZ,2013,3353947
+Eswatini,SWZ,2014,2920602
+Eswatini,SWZ,2015,22671676
+Eswatini,SWZ,2016,18175552
+Eswatini,SWZ,2017,15341684
+Eswatini,SWZ,2018,965221
+Eswatini,SWZ,2019,5087620
+Eswatini,SWZ,2020,4107575
+Eswatini,SWZ,2021,85553928
+Eswatini,SWZ,2022,9048505
+Eswatini,SWZ,2023,110279384
+Ethiopia,ETH,2005,218148944
+Ethiopia,ETH,2006,133688
+Ethiopia,ETH,2007,54108564
+Ethiopia,ETH,2008,3697200
+Ethiopia,ETH,2009,2667600
+Ethiopia,ETH,2010,8510678
+Ethiopia,ETH,2011,970340
+Ethiopia,ETH,2012,6226877
+Ethiopia,ETH,2013,95359992
+Ethiopia,ETH,2014,41970652
+Ethiopia,ETH,2015,291319008
+Ethiopia,ETH,2016,130466184
+Ethiopia,ETH,2017,116554296
+Ethiopia,ETH,2018,1538191616
+Ethiopia,ETH,2019,198936544
+Ethiopia,ETH,2020,58002000
+Fiji,FJI,2005,0
+Fiji,FJI,2006,99000
+Fiji,FJI,2007,80100
+Fiji,FJI,2008,1361700
+Fiji,FJI,2009,23287726
+Fiji,FJI,2010,24623058
+Fiji,FJI,2011,1224504
+Fiji,FJI,2013,0
+Fiji,FJI,2015,0
+Fiji,FJI,2016,889053376
+Fiji,FJI,2017,0
+Fiji,FJI,2018,41610576
+Fiji,FJI,2019,4758983
+Fiji,FJI,2020,226684144
+Fiji,FJI,2021,99821592
+Fiji,FJI,2022,7110262
+Finland,FIN,2005,2200200
+Finland,FIN,2006,3755588
+Finland,FIN,2007,2917200
+Finland,FIN,2008,3256800
+Finland,FIN,2009,2495813
+Finland,FIN,2010,2483250
+Finland,FIN,2011,1953675
+Finland,FIN,2012,1589588
+Finland,FIN,2013,2531250
+Finland,FIN,2014,2389950
+Finland,FIN,2015,44428224
+Finland,FIN,2016,79228432
+Finland,FIN,2017,35549940
+Finland,FIN,2018,61442728
+Finland,FIN,2019,12212874
+France,FRA,2015,3359072256
+France,FRA,2016,4953902592
+France,FRA,2017,6238212608
+France,FRA,2018,6772634624
+France,FRA,2019,7346719232
+France,FRA,2020,5120990720
+France,FRA,2021,3909548032
+France,FRA,2022,11325854720
+France,FRA,2023,7251846144
+Gambia,GMB,2005,0
+Gambia,GMB,2016,12845400
+Gambia,GMB,2017,24179926
+Gambia,GMB,2018,15372634
+Gambia,GMB,2019,282792
+Gambia,GMB,2021,571819840
+Gambia,GMB,2022,897680576
+Gambia,GMB,2023,129836792
+Georgia,GEO,2015,14310450
+Georgia,GEO,2016,13309950
+Georgia,GEO,2017,40199436
+Georgia,GEO,2018,313950
+Georgia,GEO,2019,14448525
+Georgia,GEO,2020,1
+Georgia,GEO,2021,13517798
+Georgia,GEO,2022,2695290
+Georgia,GEO,2023,233828
+Ghana,GHA,2011,18338
+Ghana,GHA,2012,22453124
+Ghana,GHA,2013,50400
+Ghana,GHA,2014,0
+Ghana,GHA,2015,744150
+Ghana,GHA,2019,501788544
+Ghana,GHA,2020,2900620032
+Ghana,GHA,2021,2455200000
+Ghana,GHA,2022,136295328
+Ghana,GHA,2023,144523168
+Ghana,GHA,2024,1272849
+Grenada,GRD,2005,375920128
+Grenada,GRD,2008,0
+Grenada,GRD,2010,0
+Grenada,GRD,2011,162525
+Grenada,GRD,2012,0
+Grenada,GRD,2014,0
+Guatemala,GTM,2005,18
+Guatemala,GTM,2006,0
+Guatemala,GTM,2007,0
+Guatemala,GTM,2008,0
+Guatemala,GTM,2009,0
+Guatemala,GTM,2010,99846
+Guatemala,GTM,2011,0
+Guatemala,GTM,2012,247532400
+Guatemala,GTM,2013,6615000
+Guatemala,GTM,2014,119050800
+Guatemala,GTM,2015,712346368
+Guatemala,GTM,2016,202940576
+Guatemala,GTM,2017,153102816
+Guatemala,GTM,2018,149193568
+Guatemala,GTM,2019,34105796
+Guatemala,GTM,2020,1127919360
+Guatemala,GTM,2021,80977208
+Guatemala,GTM,2022,269916288
+Guatemala,GTM,2023,251465136
+Guinea,GIN,2014,0
+Guinea,GIN,2015,0
+Guinea-Bissau,GNB,2017,3626100
+Guinea-Bissau,GNB,2018,11850
+Guyana,GUY,2005,435181376
+Guyana,GUY,2006,68457688
+Guyana,GUY,2007,12140467
+Guyana,GUY,2008,1548575
+Guyana,GUY,2009,1481597
+Guyana,GUY,2010,1741761
+Guyana,GUY,2011,4339937
+Guyana,GUY,2012,1150875
+Guyana,GUY,2013,890531392
+Honduras,HND,2005,41435364
+Honduras,HND,2006,6135750
+Honduras,HND,2007,41534440
+Honduras,HND,2008,78240304
+Honduras,HND,2009,111019800
+Honduras,HND,2010,622691456
+Honduras,HND,2014,30031116
+Honduras,HND,2015,312683
+Hungary,HUN,2021,0
+Hungary,HUN,2022,0
+India,IND,2021,2885058048
+Indonesia,IDN,2005,364891744
+Indonesia,IDN,2006,518149888
+Indonesia,IDN,2007,625118848
+Indonesia,IDN,2008,1020082112
+Indonesia,IDN,2009,627875456
+Indonesia,IDN,2010,859896832
+Indonesia,IDN,2011,791222848
+Indonesia,IDN,2012,900280000
+Indonesia,IDN,2013,791440128
+Indonesia,IDN,2014,1152900736
+Indonesia,IDN,2015,10360940544
+Indonesia,IDN,2016,46326042624
+Indonesia,IDN,2017,520435008
+Indonesia,IDN,2018,465183456
+Indonesia,IDN,2019,10914743296
+Indonesia,IDN,2020,7742298112
+Indonesia,IDN,2021,63924892
+Indonesia,IDN,2022,9754028032
+Indonesia,IDN,2023,6859670528
+Iran,IRN,2005,372821696
+Iran,IRN,2006,1213606016
+Iran,IRN,2007,43260236
+Iran,IRN,2008,27690872
+Iran,IRN,2009,20092500
+Iran,IRN,2010,81207312
+Iran,IRN,2011,63615000
+Iraq,IRQ,2017,0
+Iraq,IRQ,2018,774161216
+Ireland,IRL,2015,0
+Ireland,IRL,2016,280556224
+Ireland,IRL,2017,79163536
+Jamaica,JAM,2007,130072464
+Jamaica,JAM,2009,0
+Jamaica,JAM,2011,0
+Jamaica,JAM,2014,884
+Jamaica,JAM,2015,2710688
+Jamaica,JAM,2016,386203
+Jamaica,JAM,2020,2531451
+Jamaica,JAM,2021,3120512
+Jamaica,JAM,2022,11209546
+Jamaica,JAM,2023,2123535
+Japan,JPN,2015,2048003968
+Japan,JPN,2016,6754072576
+Japan,JPN,2017,3465259520
+Japan,JPN,2018,8952922112
+Japan,JPN,2019,7893592576
+Japan,JPN,2020,4602592256
+Japan,JPN,2021,2810122496
+Japan,JPN,2022,3292316416
+Japan,JPN,2023,716515456
+Jordan,JOR,2005,27257
+Jordan,JOR,2006,481650
+Jordan,JOR,2007,159375
+Jordan,JOR,2008,52200
+Jordan,JOR,2009,85313
+Jordan,JOR,2010,105600
+Jordan,JOR,2013,1755525
+Jordan,JOR,2014,2136000
+Jordan,JOR,2015,4443914
+Jordan,JOR,2016,3222415
+Jordan,JOR,2017,4228023
+Jordan,JOR,2018,2282265
+Jordan,JOR,2019,591096
+Jordan,JOR,2020,591096
+Jordan,JOR,2021,594207
+Jordan,JOR,2022,32670430
+Jordan,JOR,2023,14553952
+Kazakhstan,KAZ,2005,818400
+Kazakhstan,KAZ,2006,0
+Kazakhstan,KAZ,2007,0
+Kazakhstan,KAZ,2008,0
+Kazakhstan,KAZ,2009,0
+Kazakhstan,KAZ,2010,0
+Kazakhstan,KAZ,2011,3169388
+Kazakhstan,KAZ,2012,0
+Kazakhstan,KAZ,2013,0
+Kazakhstan,KAZ,2014,67386
+Kazakhstan,KAZ,2015,8100
+Kazakhstan,KAZ,2016,8932613
+Kazakhstan,KAZ,2017,14965738
+Kazakhstan,KAZ,2018,5509655
+Kazakhstan,KAZ,2019,2041254
+Kazakhstan,KAZ,2020,53748524
+Kazakhstan,KAZ,2022,4272335
+Kenya,KEN,2005,47100000
+Kenya,KEN,2006,14042250
+Kenya,KEN,2007,0
+Kenya,KEN,2008,17517824
+Kenya,KEN,2009,248594512
+Kenya,KEN,2010,210136384
+Kenya,KEN,2011,8228249
+Kenya,KEN,2012,69540000
+Kenya,KEN,2013,6181778
+Kenya,KEN,2014,8289488
+Kenya,KEN,2015,101452496
+Kenya,KEN,2016,11123325
+Kenya,KEN,2017,122250
+Kenya,KEN,2019,1083612416
+Kenya,KEN,2020,8601632
+Kenya,KEN,2021,3958615
+Kenya,KEN,2022,17940496
+Kenya,KEN,2023,13002019
+Kenya,KEN,2024,0
+Kiribati,KIR,2014,268950
+Kiribati,KIR,2020,30432
+Kiribati,KIR,2021,22535646
+Kuwait,KWT,2005,0
+Kuwait,KWT,2013,0
+Kuwait,KWT,2014,0
+Kuwait,KWT,2015,0
+Kuwait,KWT,2016,0
+Kuwait,KWT,2017,0
+Kuwait,KWT,2020,0
+Kyrgyzstan,KGZ,2005,18298800
+Kyrgyzstan,KGZ,2006,7059113
+Kyrgyzstan,KGZ,2007,10102125
+Kyrgyzstan,KGZ,2008,18275062
+Kyrgyzstan,KGZ,2009,9689063
+Kyrgyzstan,KGZ,2010,81227136
+Kyrgyzstan,KGZ,2011,15792000
+Kyrgyzstan,KGZ,2012,1370513
+Kyrgyzstan,KGZ,2013,16627275
+Kyrgyzstan,KGZ,2014,20539576
+Kyrgyzstan,KGZ,2015,34325756
+Kyrgyzstan,KGZ,2016,14682261
+Kyrgyzstan,KGZ,2017,16179487
+Kyrgyzstan,KGZ,2018,5646334
+Kyrgyzstan,KGZ,2019,4612546
+Kyrgyzstan,KGZ,2020,6659449
+Kyrgyzstan,KGZ,2021,24718774
+Kyrgyzstan,KGZ,2022,33998664
+Kyrgyzstan,KGZ,2023,966333
+Laos,LAO,2005,5212814
+Laos,LAO,2006,7785935
+Laos,LAO,2007,100122568
+Laos,LAO,2008,97111632
+Laos,LAO,2009,95163024
+Laos,LAO,2010,120720000
+Laos,LAO,2011,704920256
+Laos,LAO,2012,10539599
+Lebanon,LBN,2005,133278
+Lebanon,LBN,2006,53130
+Lebanon,LBN,2007,61058
+Lebanon,LBN,2008,35625
+Lebanon,LBN,2009,162525
+Lebanon,LBN,2010,0
+Lebanon,LBN,2011,0
+Lebanon,LBN,2012,150750
+Lebanon,LBN,2013,120600
+Lebanon,LBN,2014,0
+Lebanon,LBN,2015,0
+Lebanon,LBN,2016,62848
+Lebanon,LBN,2017,476726
+Lebanon,LBN,2018,75375
+Lebanon,LBN,2021,0
+Lesotho,LSO,2021,170491888
+Liberia,LBR,2014,0
+Liberia,LBR,2015,0
+Liberia,LBR,2016,833810560
+Liberia,LBR,2017,722402624
+Liberia,LBR,2018,315802496
+Liberia,LBR,2019,249041248
+Liberia,LBR,2020,159699152
+Liberia,LBR,2021,89584296
+Liberia,LBR,2022,212286288
+Lithuania,LTU,2020,184479
+Madagascar,MDG,2005,45136300
+Madagascar,MDG,2006,4061135
+Madagascar,MDG,2007,1363775360
+Madagascar,MDG,2008,3229879040
+Madagascar,MDG,2009,29862270
+Madagascar,MDG,2010,630811328
+Madagascar,MDG,2011,302402912
+Madagascar,MDG,2012,1320575872
+Madagascar,MDG,2013,382021664
+Madagascar,MDG,2014,17485874
+Madagascar,MDG,2015,186221376
+Madagascar,MDG,2016,46121668
+Madagascar,MDG,2017,1394967552
+Madagascar,MDG,2018,343188256
+Malawi,MWI,2005,86286560
+Malawi,MWI,2006,37856812
+Malawi,MWI,2007,2860650
+Malawi,MWI,2008,4615650
+Malawi,MWI,2009,49467600
+Malawi,MWI,2011,65616188
+Malawi,MWI,2012,21223800
+Malawi,MWI,2013,10541700
+Malawi,MWI,2014,6382350
+Malawi,MWI,2015,273768096
+Malawi,MWI,2016,45608144
+Malawi,MWI,2017,69246456
+Malawi,MWI,2018,120426040
+Malawi,MWI,2019,78500720
+Malawi,MWI,2020,9661844
+Malaysia,MYS,2005,46626112
+Malaysia,MYS,2006,29015288
+Malaysia,MYS,2007,39486740
+Malaysia,MYS,2008,31233738
+Malaysia,MYS,2009,72869152
+Malaysia,MYS,2010,33046218
+Malaysia,MYS,2011,44386472
+Malaysia,MYS,2012,99056192
+Malaysia,MYS,2013,101087472
+Malaysia,MYS,2014,174910896
+Malaysia,MYS,2015,357030848
+Malaysia,MYS,2016,111711736
+Malaysia,MYS,2017,70674992
+Malaysia,MYS,2018,34629848
+Malaysia,MYS,2019,21442838
+Malaysia,MYS,2020,113083456
+Malaysia,MYS,2021,800711296
+Malaysia,MYS,2022,26016644
+Maldives,MDV,2005,1699688
+Maldives,MDV,2006,4327050
+Maldives,MDV,2007,4359135
+Maldives,MDV,2008,159225
+Maldives,MDV,2017,316500
+Maldives,MDV,2022,137679
+Maldives,MDV,2023,3287419
+Mali,MLI,2005,0
+Mali,MLI,2006,25192614
+Mali,MLI,2007,139904656
+Mali,MLI,2008,18254924
+Mali,MLI,2009,79517920
+Mali,MLI,2010,243412256
+Mali,MLI,2011,51599476
+Mali,MLI,2012,256196992
+Mali,MLI,2013,27124650
+Mali,MLI,2014,6433538
+Mali,MLI,2017,373789120
+Marshall Islands,MHL,2006,0
+Marshall Islands,MHL,2008,153000
+Marshall Islands,MHL,2011,0
+Marshall Islands,MHL,2013,0
+Marshall Islands,MHL,2014,454125
+Marshall Islands,MHL,2015,0
+Marshall Islands,MHL,2016,1781682
+Marshall Islands,MHL,2017,0
+Marshall Islands,MHL,2018,0
+Marshall Islands,MHL,2019,0
+Marshall Islands,MHL,2020,0
+Marshall Islands,MHL,2021,0
+Marshall Islands,MHL,2022,7583100
+Mauritius,MUS,2005,2213063
+Mauritius,MUS,2006,1704038
+Mauritius,MUS,2007,2967375
+Mauritius,MUS,2008,6097838
+Mauritius,MUS,2009,1300200
+Mauritius,MUS,2010,316575
+Mauritius,MUS,2011,257400
+Mauritius,MUS,2012,579975
+Mauritius,MUS,2013,9154763
+Mauritius,MUS,2014,272850
+Mauritius,MUS,2015,678711
+Mauritius,MUS,2016,1681796
+Mauritius,MUS,2017,2356374
+Mauritius,MUS,2018,1184527
+Mauritius,MUS,2019,626930
+Mauritius,MUS,2020,915207
+Mauritius,MUS,2021,1035477
+Mauritius,MUS,2022,3104707
+Mauritius,MUS,2023,1678990
+Mexico,MEX,2005,971217984
+Mexico,MEX,2006,419132992
+Mexico,MEX,2007,1794380928
+Mexico,MEX,2008,497006240
+Mexico,MEX,2009,380206560
+Mexico,MEX,2010,1786385792
+Mexico,MEX,2011,407541600
+Mexico,MEX,2012,420325440
+Mexico,MEX,2013,501554816
+Mexico,MEX,2014,323400032
+Mexico,MEX,2015,109121904
+Mexico,MEX,2016,918853184
+Mexico,MEX,2017,7378832896
+Mexico,MEX,2018,1118467584
+Mexico,MEX,2019,30236510208
+Mexico,MEX,2020,883992256
+Mexico,MEX,2021,562416512
+Mexico,MEX,2022,12174262272
+Mexico,MEX,2023,2679945472
+Micronesia (country),FSM,2006,100000
+Micronesia (country),FSM,2008,0
+Micronesia (country),FSM,2009,0
+Micronesia (country),FSM,2015,40000000
+Micronesia (country),FSM,2018,196875
+Micronesia (country),FSM,2019,10868063
+Micronesia (country),FSM,2021,32695
+Moldova,MDA,2022,270843
+Monaco,MCO,2017,0
+Monaco,MCO,2018,0
+Mongolia,MNG,2005,29256000
+Mongolia,MNG,2006,29275424
+Mongolia,MNG,2007,36418272
+Mongolia,MNG,2008,30110324
+Mongolia,MNG,2009,26322000
+Mongolia,MNG,2010,41028976
+Mongolia,MNG,2011,44048400
+Mongolia,MNG,2012,59177400
+Mongolia,MNG,2013,58509000
+Mongolia,MNG,2014,56343672
+Mongolia,MNG,2015,139986000
+Mongolia,MNG,2016,150300832
+Mongolia,MNG,2017,129516176
+Mongolia,MNG,2018,64838632
+Mongolia,MNG,2019,131665680
+Mongolia,MNG,2020,178672704
+Mongolia,MNG,2021,43945904
+Mongolia,MNG,2022,20685032
+Mongolia,MNG,2023,52190984
+Montenegro,MNE,2005,4318125
+Montenegro,MNE,2006,209250
+Montenegro,MNE,2007,255149
+Montenegro,MNE,2008,5023500
+Montenegro,MNE,2009,1207650
+Montenegro,MNE,2010,6911813
+Montenegro,MNE,2011,554063
+Montenegro,MNE,2012,26453062
+Montenegro,MNE,2013,2241750
+Montenegro,MNE,2014,871725
+Montenegro,MNE,2015,1735200
+Montenegro,MNE,2016,292500
+Montenegro,MNE,2017,5160000
+Montenegro,MNE,2018,17914274
+Montenegro,MNE,2019,419896
+Montenegro,MNE,2020,225140
+Montenegro,MNE,2021,422080
+Morocco,MAR,2008,9768330
+Morocco,MAR,2009,1901809024
+Morocco,MAR,2010,25127240
+Morocco,MAR,2011,27194402
+Morocco,MAR,2012,34133760
+Morocco,MAR,2013,106935648
+Morocco,MAR,2014,225472016
+Morocco,MAR,2015,71437616
+Morocco,MAR,2016,6086218
+Morocco,MAR,2017,91395000
+Morocco,MAR,2018,1929031
+Morocco,MAR,2019,26261350
+Morocco,MAR,2020,32070782
+Morocco,MAR,2021,27554
+Morocco,MAR,2022,5467209
+Morocco,MAR,2023,609124096
+Mozambique,MOZ,2005,68298752
+Mozambique,MOZ,2006,98911800
+Mozambique,MOZ,2007,771994944
+Mozambique,MOZ,2008,2045589376
+Mozambique,MOZ,2009,113569752
+Mozambique,MOZ,2010,16554569
+Mozambique,MOZ,2011,27327506
+Mozambique,MOZ,2012,71005200
+Mozambique,MOZ,2015,428995264
+Mozambique,MOZ,2016,292546816
+Mozambique,MOZ,2017,16502018
+Mozambique,MOZ,2018,304077600
+Mozambique,MOZ,2019,43504865280
+Mozambique,MOZ,2022,0
+Myanmar,MMR,2005,1084048
+Myanmar,MMR,2006,1161969
+Myanmar,MMR,2007,4593191
+Myanmar,MMR,2008,3117542912
+Myanmar,MMR,2009,3100539
+Myanmar,MMR,2010,14563195
+Myanmar,MMR,2011,19599790
+Myanmar,MMR,2012,49406744
+Myanmar,MMR,2013,10296703
+Myanmar,MMR,2014,1345514112
+Myanmar,MMR,2015,2973747200
+Myanmar,MMR,2016,3027677440
+Myanmar,MMR,2017,1244725248
+Myanmar,MMR,2018,564682496
+Myanmar,MMR,2019,340229760
+Myanmar,MMR,2020,722127104
+Myanmar,MMR,2021,679501952
+Myanmar,MMR,2022,351159552
+Myanmar,MMR,2023,158222128
+Namibia,NAM,2015,0
+Namibia,NAM,2016,0
+Namibia,NAM,2017,0
+Namibia,NAM,2019,151294
+Namibia,NAM,2021,0
+Namibia,NAM,2022,601616
+Namibia,NAM,2023,522052
+Nauru,NRU,2019,94050
+Nauru,NRU,2021,8086
+Nauru,NRU,2022,0
+Nepal,NPL,2005,41685168
+Nepal,NPL,2006,94888384
+Nepal,NPL,2007,231329104
+Nepal,NPL,2008,401105280
+Nepal,NPL,2009,146390896
+Nepal,NPL,2010,292810080
+Nepal,NPL,2011,38435476
+Nepal,NPL,2012,105370200
+Nepal,NPL,2013,60156524
+Nepal,NPL,2014,384076256
+Nepal,NPL,2015,22879518720
+Nepal,NPL,2016,1717437440
+Nepal,NPL,2017,2936449536
+Nepal,NPL,2018,33483994
+Nepal,NPL,2019,82648936
+Nepal,NPL,2020,68610760
+Nepal,NPL,2021,62325088
+Netherlands,NLD,2017,0
+Netherlands,NLD,2019,0
+New Zealand,NZL,2015,42210884
+New Zealand,NZL,2016,1838784768
+New Zealand,NZL,2017,174558896
+New Zealand,NZL,2018,120739664
+New Zealand,NZL,2019,52354852
+New Zealand,NZL,2020,771335360
+New Zealand,NZL,2021,135287312
+New Zealand,NZL,2022,519710400
+New Zealand,NZL,2023,7277971456
+Nicaragua,NIC,2005,18497374
+Nicaragua,NIC,2006,199238
+Nicaragua,NIC,2007,131303344
+Nicaragua,NIC,2008,94667800
+Nicaragua,NIC,2009,14154268
+Nicaragua,NIC,2010,39126360
+Nicaragua,NIC,2011,31339004
+Nicaragua,NIC,2012,43294284
+Nicaragua,NIC,2013,33079888
+Niger,NER,2005,70200
+Niger,NER,2006,82964696
+Niger,NER,2007,4352400
+Niger,NER,2008,7581600
+Niger,NER,2009,7488000
+Niger,NER,2010,300883072
+Niger,NER,2011,169159648
+Niger,NER,2012,560701952
+Niger,NER,2013,515197440
+Niger,NER,2014,4003500
+Niger,NER,2015,18822536
+Niger,NER,2016,129076616
+Niger,NER,2017,822502080
+Niger,NER,2018,191299104
+Niger,NER,2020,1618869120
+Niger,NER,2021,361990240
+Niger,NER,2022,0
+Niger,NER,2023,0
+Niger,NER,2024,337871
+Nigeria,NGA,2021,368893952
+Nigeria,NGA,2022,14957950976
+Norway,NOR,2017,135532064
+Pakistan,PAK,2006,1521670528
+Pakistan,PAK,2009,1173765504
+Pakistan,PAK,2016,52731000
+Pakistan,PAK,2017,8389575
+Pakistan,PAK,2018,18249300
+Palau,PLW,2009,0
+Palau,PLW,2011,0
+Palau,PLW,2012,6190257
+Palau,PLW,2021,15131844
+Palau,PLW,2022,2183689
+Palestine,PSE,2005,6113
+Palestine,PSE,2006,6113
+Palestine,PSE,2007,0
+Palestine,PSE,2009,1108463
+Palestine,PSE,2010,462638
+Palestine,PSE,2011,0
+Palestine,PSE,2012,245100
+Palestine,PSE,2013,3516225
+Palestine,PSE,2015,18853156
+Palestine,PSE,2016,19515000
+Palestine,PSE,2017,1421740
+Palestine,PSE,2018,151786432
+Panama,PAN,2005,29680314
+Panama,PAN,2006,24119456
+Panama,PAN,2007,28663680
+Panama,PAN,2008,191356000
+Panama,PAN,2009,17707154
+Panama,PAN,2010,97785928
+Panama,PAN,2011,45261564
+Panama,PAN,2012,22728038
+Panama,PAN,2013,4905600
+Panama,PAN,2014,140233872
+Panama,PAN,2015,5666438
+Panama,PAN,2016,8523338
+Panama,PAN,2017,356850
+Panama,PAN,2018,7490700
+Panama,PAN,2019,3612375
+Panama,PAN,2020,7881043
+Panama,PAN,2023,16390379
+Papua New Guinea,PNG,2005,0
+Papua New Guinea,PNG,2006,1304100
+Papua New Guinea,PNG,2007,104562896
+Papua New Guinea,PNG,2008,137575504
+Papua New Guinea,PNG,2009,2628375
+Papua New Guinea,PNG,2010,0
+Papua New Guinea,PNG,2011,0
+Papua New Guinea,PNG,2012,1077375
+Papua New Guinea,PNG,2013,1683000
+Papua New Guinea,PNG,2014,0
+Papua New Guinea,PNG,2015,0
+Papua New Guinea,PNG,2019,13387500
+Papua New Guinea,PNG,2020,1666669
+Paraguay,PRY,2005,71020976
+Paraguay,PRY,2006,604923264
+Paraguay,PRY,2007,206728512
+Paraguay,PRY,2008,254195952
+Paraguay,PRY,2009,831171776
+Paraguay,PRY,2010,312723040
+Paraguay,PRY,2011,158328800
+Paraguay,PRY,2012,5049768448
+Paraguay,PRY,2013,244012944
+Paraguay,PRY,2014,436850752
+Paraguay,PRY,2015,142010688
+Paraguay,PRY,2016,900409152
+Paraguay,PRY,2017,2242525184
+Paraguay,PRY,2018,2946365440
+Paraguay,PRY,2019,604685888
+Paraguay,PRY,2023,5201295
+Peru,PER,2005,3345889792
+Peru,PER,2006,118768624
+Peru,PER,2007,639477248
+Peru,PER,2008,253652272
+Peru,PER,2009,113781784
+Peru,PER,2010,225125184
+Peru,PER,2011,343600608
+Peru,PER,2012,461651744
+Peru,PER,2013,10331836416
+Peru,PER,2014,4352637440
+Peru,PER,2015,16641392640
+Peru,PER,2016,10591805440
+Peru,PER,2017,751968384
+Peru,PER,2018,395621568
+Peru,PER,2019,253190448
+Peru,PER,2020,521665472
+Philippines,PHL,2016,7389958656
+Philippines,PHL,2017,423874656
+Philippines,PHL,2018,3635153920
+Philippines,PHL,2019,10911418368
+Philippines,PHL,2020,5224731648
+Philippines,PHL,2021,55860662272
+Philippines,PHL,2022,6284839936
+Philippines,PHL,2023,1305757184
+Poland,POL,2017,0
+Poland,POL,2018,0
+Qatar,QAT,2005,0
+Qatar,QAT,2006,0
+Qatar,QAT,2007,0
+Qatar,QAT,2008,0
+Qatar,QAT,2009,0
+Qatar,QAT,2010,0
+Qatar,QAT,2011,0
+Qatar,QAT,2012,0
+Qatar,QAT,2013,0
+Qatar,QAT,2014,0
+Qatar,QAT,2015,0
+Qatar,QAT,2016,0
+Qatar,QAT,2017,0
+Qatar,QAT,2018,0
+Qatar,QAT,2019,0
+Qatar,QAT,2020,0
+Qatar,QAT,2021,0
+Qatar,QAT,2022,0
+Qatar,QAT,2023,0
+Romania,ROU,2005,177567344
+Romania,ROU,2006,36165328
+Romania,ROU,2007,51849944
+Romania,ROU,2008,50200624
+Romania,ROU,2009,19409730
+Romania,ROU,2010,42882824
+Romania,ROU,2011,11305377
+Romania,ROU,2012,10791748
+Romania,ROU,2013,24283050
+Romania,ROU,2014,11262225
+Romania,ROU,2015,39184184
+Romania,ROU,2016,34204964
+Romania,ROU,2017,6968289
+Romania,ROU,2018,3851256832
+Romania,ROU,2019,717815680
+Romania,ROU,2020,588487360
+Romania,ROU,2021,359369
+Romania,ROU,2024,173
+Russia,RUS,2009,2323017216
+Russia,RUS,2010,0
+Russia,RUS,2014,624333760
+Russia,RUS,2015,139583504
+Russia,RUS,2016,167041904
+Russia,RUS,2017,192534048
+Russia,RUS,2018,173987312
+Russia,RUS,2019,316784192
+Russia,RUS,2020,2283912704
+Russia,RUS,2021,649881344
+Russia,RUS,2022,102467424
+Russia,RUS,2023,714886016
+Rwanda,RWA,2016,11978214
+Saint Kitts and Nevis,KNA,2005,65406
+Saint Kitts and Nevis,KNA,2006,245022
+Saint Kitts and Nevis,KNA,2007,8963
+Saint Kitts and Nevis,KNA,2008,977850
+Saint Kitts and Nevis,KNA,2010,46293
+Saint Kitts and Nevis,KNA,2011,113400
+Saint Kitts and Nevis,KNA,2012,75491
+Saint Kitts and Nevis,KNA,2013,37950
+Saint Kitts and Nevis,KNA,2014,0
+Saint Lucia,LCA,2006,0
+Saint Lucia,LCA,2007,5581873
+Saint Lucia,LCA,2008,506616
+Saint Lucia,LCA,2009,74052
+Saint Lucia,LCA,2010,23084610
+Saint Lucia,LCA,2011,153525
+Saint Lucia,LCA,2012,0
+Saint Lucia,LCA,2014,0
+Saint Vincent and the Grenadines,VCT,2005,273206080
+Saint Vincent and the Grenadines,VCT,2006,350625
+Saint Vincent and the Grenadines,VCT,2007,422588
+Saint Vincent and the Grenadines,VCT,2008,142632
+Saint Vincent and the Grenadines,VCT,2009,30992
+Saint Vincent and the Grenadines,VCT,2010,16034298
+Saint Vincent and the Grenadines,VCT,2011,3986849
+Saint Vincent and the Grenadines,VCT,2013,222392640
+Saint Vincent and the Grenadines,VCT,2014,19731864
+Samoa,WSM,2005,0
+Samoa,WSM,2006,0
+Samoa,WSM,2008,0
+Samoa,WSM,2009,27241398
+Samoa,WSM,2012,0
+Samoa,WSM,2013,0
+Samoa,WSM,2014,0
+Samoa,WSM,2015,0
+Samoa,WSM,2016,0
+Samoa,WSM,2022,0
+Samoa,WSM,2023,2242647
+Saudi Arabia,SAU,2018,0
+Senegal,SEN,2005,19576476
+Senegal,SEN,2006,515999
+Senegal,SEN,2007,1171275
+Senegal,SEN,2008,152219120
+Senegal,SEN,2009,169477696
+Senegal,SEN,2010,6052286
+Senegal,SEN,2011,3331467
+Senegal,SEN,2012,4065627
+Senegal,SEN,2013,65576340
+Senegal,SEN,2014,13953129
+Senegal,SEN,2015,0
+Serbia,SRB,2005,29277600
+Serbia,SRB,2006,64509752
+Serbia,SRB,2007,38126400
+Serbia,SRB,2008,147000
+Serbia,SRB,2009,18261376
+Serbia,SRB,2010,182313008
+Serbia,SRB,2011,32068200
+Serbia,SRB,2012,19745776
+Serbia,SRB,2013,2611725
+Serbia,SRB,2014,181557504
+Serbia,SRB,2015,12152577
+Serbia,SRB,2016,55782184
+Serbia,SRB,2017,16046234
+Serbia,SRB,2018,2070174
+Serbia,SRB,2019,13128514
+Serbia,SRB,2020,7176194
+Serbia,SRB,2021,219217
+Serbia,SRB,2022,118215
+Serbia,SRB,2023,1084414
+Serbia,SRB,2024,987336
+Seychelles,SYC,2005,18623
+Seychelles,SYC,2006,52324
+Seychelles,SYC,2007,13377
+Seychelles,SYC,2008,8175
+Seychelles,SYC,2009,3316
+Seychelles,SYC,2010,4693
+Seychelles,SYC,2011,5344
+Seychelles,SYC,2012,6548
+Seychelles,SYC,2013,4010
+Seychelles,SYC,2014,76170
+Seychelles,SYC,2017,120900
+Sierra Leone,SLE,2006,778050
+Sierra Leone,SLE,2009,3603600
+Sierra Leone,SLE,2010,7236450
+Sierra Leone,SLE,2011,7007088
+Sierra Leone,SLE,2012,7405443
+Sierra Leone,SLE,2013,32540100
+Sierra Leone,SLE,2014,16030186
+Sierra Leone,SLE,2015,11079018
+Slovenia,SVN,2008,137087712
+Slovenia,SVN,2009,39916340
+Slovenia,SVN,2010,76806328
+Slovenia,SVN,2011,13078055
+Slovenia,SVN,2012,394891680
+Slovenia,SVN,2013,141469392
+Slovenia,SVN,2014,0
+Slovenia,SVN,2015,0
+Slovenia,SVN,2016,78739936
+Slovenia,SVN,2017,289697952
+Slovenia,SVN,2018,81194600
+Slovenia,SVN,2019,135289456
+Slovenia,SVN,2020,56081240
+Slovenia,SVN,2021,64047308
+Slovenia,SVN,2022,229582832
+Slovenia,SVN,2023,3158696704
+Solomon Islands,SLB,2006,0
+Solomon Islands,SLB,2007,65999672
+Solomon Islands,SLB,2008,0
+Solomon Islands,SLB,2009,413100
+Solomon Islands,SLB,2010,5826567
+Solomon Islands,SLB,2011,129938
+Solomon Islands,SLB,2012,1091496
+Solomon Islands,SLB,2013,12366973
+Solomon Islands,SLB,2014,1584413
+Solomon Islands,SLB,2015,44070636
+Solomon Islands,SLB,2016,27019994
+Solomon Islands,SLB,2017,50575888
+Solomon Islands,SLB,2018,80668440
+Solomon Islands,SLB,2019,9228432
+Solomon Islands,SLB,2020,1825545
+Solomon Islands,SLB,2021,1596195
+Solomon Islands,SLB,2022,3129407
+Somalia,SOM,2005,0
+Somalia,SOM,2006,0
+Somalia,SOM,2008,0
+Somalia,SOM,2009,0
+Somalia,SOM,2010,0
+Somalia,SOM,2011,0
+Somalia,SOM,2012,20988938
+Somalia,SOM,2013,20762250
+Somalia,SOM,2014,325500
+Somalia,SOM,2015,5813
+Somalia,SOM,2016,32590686
+Somalia,SOM,2021,1904
+Somalia,SOM,2022,264324
+Somalia,SOM,2023,0
+South Africa,ZAF,2005,404550
+South Africa,ZAF,2007,88350000
+South Africa,ZAF,2008,100674000
+South Africa,ZAF,2011,105525000
+South Africa,ZAF,2015,0
+South Africa,ZAF,2016,22222249984
+South Africa,ZAF,2017,171000000
+South Korea,KOR,2005,58416712
+South Korea,KOR,2006,111526760
+South Korea,KOR,2007,70745400
+South Korea,KOR,2008,20811564
+South Korea,KOR,2009,58473000
+South Korea,KOR,2010,368307808
+South Korea,KOR,2011,350851296
+South Korea,KOR,2012,116399440
+South Korea,KOR,2013,22916250
+South Korea,KOR,2014,47662500
+South Korea,KOR,2015,10299990
+South Korea,KOR,2016,60101960
+South Korea,KOR,2017,83437840
+South Korea,KOR,2018,25131386
+South Korea,KOR,2019,42935176
+South Korea,KOR,2020,68248672
+South Korea,KOR,2021,28121216
+South Korea,KOR,2022,480993632
+South Sudan,SSD,2016,10701
+Sri Lanka,LKA,2005,28931700
+Sri Lanka,LKA,2006,51151500
+Sri Lanka,LKA,2007,57041852
+Sri Lanka,LKA,2008,365133600
+Sri Lanka,LKA,2009,0
+Sri Lanka,LKA,2016,0
+Sri Lanka,LKA,2020,115408128
+Sudan,SDN,2005,8319
+Sudan,SDN,2006,8321
+Sudan,SDN,2007,8319
+Sudan,SDN,2008,8195
+Sudan,SDN,2009,8643
+Sudan,SDN,2010,10467
+Sudan,SDN,2011,11549
+Sudan,SDN,2012,12812
+Sudan,SDN,2013,12598
+Sudan,SDN,2014,12912
+Sudan,SDN,2015,13813
+Sudan,SDN,2016,144512
+Sudan,SDN,2017,616743744
+Sudan,SDN,2018,512195616
+Sudan,SDN,2019,1274346496
+Sweden,SWE,2014,19163
+Sweden,SWE,2015,0
+Sweden,SWE,2016,0
+Sweden,SWE,2017,0
+Sweden,SWE,2018,709805760
+Sweden,SWE,2019,0
+Sweden,SWE,2020,0
+Sweden,SWE,2021,186554848
+Sweden,SWE,2022,20178962
+Switzerland,CHE,2005,1883838336
+Switzerland,CHE,2006,1158898688
+Switzerland,CHE,2007,1205997056
+Switzerland,CHE,2008,888773440
+Switzerland,CHE,2009,1290715648
+Switzerland,CHE,2010,829260800
+Switzerland,CHE,2011,1347950080
+Switzerland,CHE,2012,1205947136
+Switzerland,CHE,2013,1305855360
+Switzerland,CHE,2014,1154344448
+Switzerland,CHE,2015,1483749248
+Switzerland,CHE,2016,966325120
+Switzerland,CHE,2017,1198589952
+Switzerland,CHE,2018,1272360448
+Switzerland,CHE,2019,1091055488
+Switzerland,CHE,2020,1068603776
+Switzerland,CHE,2021,2539044096
+Switzerland,CHE,2022,1339733248
+Syria,SYR,2005,1574742
+Syria,SYR,2006,5430804
+Syria,SYR,2007,322170
+Syria,SYR,2008,747825
+Syria,SYR,2009,281588
+Tajikistan,TJK,2015,28794318
+Tajikistan,TJK,2016,4525865
+Tajikistan,TJK,2017,895
+Tajikistan,TJK,2018,2033
+Tajikistan,TJK,2019,982372
+Tajikistan,TJK,2020,4935158
+Tanzania,TZA,2005,865463
+Tanzania,TZA,2006,436674
+Tanzania,TZA,2007,9078525
+Tanzania,TZA,2008,324741
+Tanzania,TZA,2009,130661760
+Tanzania,TZA,2010,38580744
+Tanzania,TZA,2011,48013084
+Tanzania,TZA,2012,4054634
+Tanzania,TZA,2013,28307166
+Tanzania,TZA,2015,439628768
+Tanzania,TZA,2016,929822848
+Tanzania,TZA,2017,373561728
+Tanzania,TZA,2018,150191664
+Tanzania,TZA,2019,248991216
+Tanzania,TZA,2020,478499008
+Tanzania,TZA,2021,79770504
+Tanzania,TZA,2022,911524
+Tanzania,TZA,2023,8957060
+Togo,TGO,2005,22874306
+Togo,TGO,2006,1831050
+Togo,TGO,2007,2368690
+Togo,TGO,2008,103190
+Togo,TGO,2009,274742
+Togo,TGO,2010,34745148
+Togo,TGO,2011,275527
+Togo,TGO,2012,820243
+Togo,TGO,2013,849108
+Togo,TGO,2014,561782720
+Togo,TGO,2016,121266
+Togo,TGO,2017,288457
+Togo,TGO,2018,2208483
+Togo,TGO,2019,8333880
+Togo,TGO,2020,49799824
+Togo,TGO,2021,47537180
+Tonga,TON,2005,0
+Tonga,TON,2011,1113801
+Tonga,TON,2013,0
+Tonga,TON,2014,18560062
+Tonga,TON,2015,0
+Tonga,TON,2016,0
+Tonga,TON,2017,0
+Tonga,TON,2018,8579025
+Tonga,TON,2019,0
+Tonga,TON,2020,586694
+Trinidad and Tobago,TTO,2006,0
+Trinidad and Tobago,TTO,2007,0
+Trinidad and Tobago,TTO,2011,0
+Trinidad and Tobago,TTO,2013,0
+Trinidad and Tobago,TTO,2015,24503550
+Trinidad and Tobago,TTO,2016,23146876
+Trinidad and Tobago,TTO,2017,71175000
+Trinidad and Tobago,TTO,2018,16761967
+Trinidad and Tobago,TTO,2019,53044
+Trinidad and Tobago,TTO,2020,82877
+Tunisia,TUN,2005,0
+Tunisia,TUN,2006,630763
+Tunisia,TUN,2007,2296800
+Tunisia,TUN,2008,13425
+Tunisia,TUN,2009,25608308
+Tunisia,TUN,2010,52272
+Tunisia,TUN,2011,1204805
+Tunisia,TUN,2012,1446219
+Tunisia,TUN,2013,26850
+Tunisia,TUN,2018,98713200
+Turkey,TUR,2005,57766500
+Turkey,TUR,2006,17180100
+Turkey,TUR,2007,112134752
+Turkey,TUR,2008,4804313
+Turkey,TUR,2009,6661200
+Turkey,TUR,2010,257795984
+Turkey,TUR,2011,574991104
+Turkey,TUR,2012,6678000
+Turkey,TUR,2013,592538
+Turkey,TUR,2014,25425
+Turkey,TUR,2015,1675820672
+Turkey,TUR,2016,714550464
+Turkey,TUR,2017,1039931520
+Turkey,TUR,2018,784465472
+Turkey,TUR,2019,3531999744
+Turkey,TUR,2020,1110454528
+Turkey,TUR,2021,306173888
+Turkey,TUR,2022,2792339200
+Turkmenistan,TKM,2019,0
+Tuvalu,TUV,2011,0
+Tuvalu,TUV,2016,3535688
+Tuvalu,TUV,2020,13672457
+Tuvalu,TUV,2022,106864
+Uganda,UGA,2006,9188767
+Uganda,UGA,2007,329093536
+Uganda,UGA,2008,33575636
+Uganda,UGA,2009,22818778
+Uganda,UGA,2010,132545976
+Uganda,UGA,2011,177692848
+Uganda,UGA,2012,81872152
+Uganda,UGA,2013,83368328
+Uganda,UGA,2014,33072232
+Uganda,UGA,2015,36001420
+Uganda,UGA,2016,64857064
+Uganda,UGA,2017,0
+Uganda,UGA,2019,556337664
+Uganda,UGA,2020,3204065536
+Uganda,UGA,2021,3572920576
+Uganda,UGA,2022,4426419712
+Ukraine,UKR,2005,46532184
+Ukraine,UKR,2006,64876756
+Ukraine,UKR,2007,162556928
+Ukraine,UKR,2008,873678656
+Ukraine,UKR,2009,52867212
+Ukraine,UKR,2010,96351248
+Ukraine,UKR,2011,7734073
+Ukraine,UKR,2012,22692028
+Ukraine,UKR,2013,35379608
+Ukraine,UKR,2014,11685420
+Ukraine,UKR,2015,7141239
+Ukraine,UKR,2016,10212216
+Ukraine,UKR,2017,24799514
+Ukraine,UKR,2018,13583122
+Ukraine,UKR,2019,64321188
+Ukraine,UKR,2020,1037774016
+Ukraine,UKR,2021,13940583
+Ukraine,UKR,2022,3627648
+Ukraine,UKR,2023,3926992128
+United Arab Emirates,ARE,2007,453504160
+United Arab Emirates,ARE,2008,609000448
+United Arab Emirates,ARE,2009,652183552
+United Arab Emirates,ARE,2010,672905408
+United Arab Emirates,ARE,2011,594835392
+United Arab Emirates,ARE,2012,701507712
+United Arab Emirates,ARE,2013,644795904
+United Arab Emirates,ARE,2014,684205312
+United Arab Emirates,ARE,2015,709828992
+United Arab Emirates,ARE,2016,858843008
+United Arab Emirates,ARE,2017,1418837504
+United Arab Emirates,ARE,2018,1426713472
+United Arab Emirates,ARE,2019,832577728
+United Arab Emirates,ARE,2020,0
+United Kingdom,GBR,2017,0
+United States,USA,2015,18221424640
+United States,USA,2016,23722201088
+United States,USA,2017,64822792192
+United States,USA,2018,44429811712
+United States,USA,2019,23730837504
+United States,USA,2020,51814748160
+United States,USA,2021,63290896384
+Uruguay,URY,2009,1243161
+Uruguay,URY,2010,76156400
+Uruguay,URY,2011,10188454
+Uruguay,URY,2012,141845616
+Uruguay,URY,2013,8980120
+Uruguay,URY,2014,32046338
+Uruguay,URY,2015,87550280
+Uruguay,URY,2016,7501092
+Uruguay,URY,2017,474531840
+Uruguay,URY,2018,11603068
+Uruguay,URY,2019,67312280
+Uruguay,URY,2020,209080960
+Uruguay,URY,2021,7102073
+Uruguay,URY,2022,1104373120
+Uruguay,URY,2023,23186444
+Uzbekistan,UZB,2019,0
+Uzbekistan,UZB,2020,125923872
+Uzbekistan,UZB,2021,330184
+Vanuatu,VUT,2005,0
+Vanuatu,VUT,2006,0
+Vanuatu,VUT,2007,25200
+Vanuatu,VUT,2008,95625
+Vanuatu,VUT,2009,1616063
+Vanuatu,VUT,2010,3071588
+Vanuatu,VUT,2011,1470068
+Vanuatu,VUT,2012,281580
+Vanuatu,VUT,2013,0
+Vanuatu,VUT,2014,245100
+Vanuatu,VUT,2015,0
+Vanuatu,VUT,2017,2316120
+Vanuatu,VUT,2018,64500000
+Vanuatu,VUT,2020,114719176
+Vanuatu,VUT,2021,0
+Venezuela,VEN,2005,90233736
+Venezuela,VEN,2006,72569144
+Venezuela,VEN,2007,260991392
+Venezuela,VEN,2008,34006132
+Venezuela,VEN,2009,12045826
+Venezuela,VEN,2010,59816992
+Venezuela,VEN,2011,87996272
+Venezuela,VEN,2012,89541256
+Venezuela,VEN,2013,25783058
+Venezuela,VEN,2014,36020348
+Venezuela,VEN,2015,2470500
+Vietnam,VNM,2005,219752320
+Vietnam,VNM,2006,2612303104
+Vietnam,VNM,2007,572048192
+Vietnam,VNM,2008,353748000
+Vietnam,VNM,2009,1814631040
+Vietnam,VNM,2010,987964416
+Vietnam,VNM,2019,2269500
+Yemen,YEM,2005,942075
+Yemen,YEM,2006,4430138
+Yemen,YEM,2007,23220000
+Yemen,YEM,2008,82112264
+Yemen,YEM,2009,804000
+Yemen,YEM,2010,3250125
+Yemen,YEM,2021,0
+Yemen,YEM,2022,36484
+Zambia,ZMB,2006,11544000
+Zambia,ZMB,2007,0
+Zambia,ZMB,2008,4932975
+Zambia,ZMB,2009,34685172
+Zambia,ZMB,2010,3278604
+Zambia,ZMB,2011,287892
+Zambia,ZMB,2012,4187327
+Zambia,ZMB,2013,20521340
+Zambia,ZMB,2014,14661396
+Zambia,ZMB,2016,8177139
+Zambia,ZMB,2022,95305
+Zimbabwe,ZWE,2011,0
+Zimbabwe,ZWE,2019,13526586

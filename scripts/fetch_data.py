@@ -19,7 +19,7 @@ PINK_SHEET_URLS = [
     "https://pubdocs.worldbank.org/en/561011486076393416/CMO-Historical-Data-Monthly.xlsx",
 ]
 
-OWID_DISASTER_URL = "https://ourworldindata.org/grapher/economic-damage-from-natural-disasters.csv?v=1&csvType=full&useColumnShortNames=false"
+OWID_DISASTER_URL = "https://ourworldindata.org/grapher/direct-disaster-economic-loss.csv?v=1&csvType=full&useColumnShortNames=false"
 OWID_WAR_URL = "https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country.csv?download-format=tabular"
 HOUSE_PRICE_URL = "https://datahub.io/core/house-prices-global/_r/-/archive/WS_SPP_csv_col.csv"
 
@@ -93,7 +93,7 @@ def create_source_registry() -> None:
         {
             "source": "Our World in Data / EM-DAT",
             "url": OWID_DISASTER_URL,
-            "coverage": "Natural disaster damage by country/year where available.",
+            "coverage": "Direct economic loss from disasters by country/year where available.",
             "use": "Event severity proxy for catastrophe correlation and event windows.",
         },
         {

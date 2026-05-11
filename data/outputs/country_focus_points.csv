@@ -1,140 +1,140 @@
 country,country_code,continent,latest_year,avg_gasoline_price,avg_diesel_price,max_gasoline_pct_change,max_diesel_pct_change,total_disaster_damage_usd,total_conflict_deaths,latest_population
-Afghanistan,AFG,Asia,2026,,,,,0,318371,42647492
+Afghanistan,AFG,Asia,2026,,,,,967769584,318371,42647492
 Albania,ALB,Europe,2026,,,,,0,26,2377128
-Algeria,DZA,Africa,2026,,,,,0,21001,46814308
-Angola,AGO,Africa,2026,,,,,0,33104,37885849
-Argentina,ARG,Americas,2026,,,,,0,127,45696159
-Australia,AUS,Oceania,2026,,,,,0,2,27196812
-Austria,AUT,Europe,2026,,,,,0,4,9177982
+Algeria,DZA,Africa,2026,,,,,983213213,21001,46814308
+Angola,AGO,Africa,2026,,,,,11039347589,33104,37885849
+Argentina,ARG,Americas,2026,,,,,22851093906,127,45696159
+Australia,AUS,Oceania,2026,,,,,3678633700,2,27196812
+Austria,AUT,Europe,2026,,,,,1013114272,4,9177982
 Bahrain,BHR,Asia,2026,,,,,0,29,1588670
-Bangladesh,BGD,Asia,2026,,,,,0,1473,173562364
-Belgium,BEL,Europe,2026,,,,,0,40,11858610
-Benin,BEN,Africa,2026,,,,,0,290,14462724
-Bolivia,BOL,Americas,2026,,,,,0,54,12413315
+Bangladesh,BGD,Asia,2026,,,,,11295345664,1473,173562364
+Belgium,BEL,Europe,2026,,,,,18000960,40,11858610
+Benin,BEN,Africa,2026,,,,,3752700853,290,14462724
+Bolivia,BOL,Americas,2026,,,,,2337845543,54,12413315
 Bosnia and Herzegovina,BIH,Europe,2026,,,,,0,65234,3164253
-Botswana,BWA,Africa,2026,,,,,0,1,2521139
-Brazil,BRA,Americas,2026,,,,,0,19213,211998573
-Bulgaria,BGR,Europe,2026,,,,,0,0,6441421
-Burkina Faso,BFA,Africa,2026,,,,,0,22385,23548781
-Burundi,BDI,Africa,2026,,,,,0,50740,14047786
-Cambodia,KHM,Asia,2026,,,,,0,4992,17638801
-Cameroon,CMR,Africa,2026,,,,,0,8852,29123744
+Botswana,BWA,Africa,2026,,,,,202364,1,2521139
+Brazil,BRA,Americas,2026,,,,,65021989,19213,211998573
+Bulgaria,BGR,Europe,2026,,,,,493832850,0,6441421
+Burkina Faso,BFA,Africa,2026,,,,,1712763580,22385,23548781
+Burundi,BDI,Africa,2026,,,,,3360133838,50740,14047786
+Cambodia,KHM,Asia,2026,,,,,770264051,4992,17638801
+Cameroon,CMR,Africa,2026,,,,,775738842,8852,29123744
 Canada,CAN,Americas,2026,,,,,0,51,41288599
 Central African Republic,CAF,Africa,2026,,,,,0,15411,5330690
 Chad,TCD,Africa,2026,,,,,0,11556,20299123
-Chile,CHL,Americas,2026,,,,,0,0,19764771
-China,CHN,Asia,2026,,,,,0,2882,1408975000
-Colombia,COL,Americas,2026,,,,,0,44583,52886363
-Comoros,COM,Africa,2026,,,,,0,125,866628
+Chile,CHL,Americas,2026,,,,,6948976322,0,19764771
+China,CHN,Asia,2026,,,,,13691610112,2882,1408975000
+Colombia,COL,Americas,2026,,,,,268867619024,44583,52886363
+Comoros,COM,Africa,2026,,,,,128928601,125,866628
 "Congo, Dem. Rep.",COD,Africa,2024,,,,,0,0,109276265
 "Congo, Rep.",COG,Africa,2024,,,,,0,0,6332961
-Costa Rica,CRI,Americas,2026,,,,,0,0,5129910
-Cote d'Ivoire,CIV,Africa,2026,,,,,0,3462,31934230
-Croatia,HRV,Europe,2026,,,,,0,4801,3866200
-Cuba,CUB,Americas,2026,,,,,0,0,10979783
-Czechia,CZE,Europe,2026,,,,,0,0,10905028
+Costa Rica,CRI,Americas,2026,,,,,3370873860,0,5129910
+Cote d'Ivoire,CIV,Africa,2026,,,,,42874176,3462,31934230
+Croatia,HRV,Europe,2026,,,,,374167551,4801,3866200
+Cuba,CUB,Americas,2026,,,,,4403186338,0,10979783
+Czechia,CZE,Europe,2026,,,,,304951837,0,10905028
 Denmark,DNK,Europe,2026,,,,,0,0,5976992
 Djibouti,DJI,Africa,2026,,,,,0,470,1168722
 Dominican Republic,DOM,Americas,2026,,,,,0,0,11427557
-Ecuador,ECU,Americas,2026,,,,,0,1605,18135478
+Ecuador,ECU,Americas,2026,,,,,1552757547,1605,18135478
 "Egypt, Arab Rep.",EGY,Africa,2024,,,,,0,0,116538258
-El Salvador,SLV,Americas,2026,,,,,0,5983,6338193
-Equatorial Guinea,GNQ,Africa,2026,,,,,0,0,1892516
+El Salvador,SLV,Americas,2026,,,,,365875932,5983,6338193
+Equatorial Guinea,GNQ,Africa,2026,,,,,18313110,0,1892516
 Eritrea,ERI,Africa,2026,,,,,0,139428,3535603
-Eswatini,SWZ,Africa,2026,,,,,0,50,1242822
-Ethiopia,ETH,Africa,2026,,,,,0,388975,132059767
-Finland,FIN,Europe,2026,,,,,0,0,5619911
-France,FRA,Europe,2026,,,,,0,283,68551653
+Eswatini,SWZ,Africa,2026,,,,,401596349,50,1242822
+Ethiopia,ETH,Africa,2026,,,,,2765264183,388975,132059767
+Finland,FIN,Europe,2026,,,,,258435512,0,5619911
+France,FRA,Europe,2026,,,,,56278780928,283,68551653
 Gabon,GAB,Africa,2026,,,,,0,0,2538952
 "Gambia, The",GMB,Africa,2024,,,,,0,0,2759988
 Germany,DEU,Europe,2026,,,,,0,19,83516593
-Ghana,GHA,Africa,2026,,,,,0,2444,34427414
+Ghana,GHA,Africa,2026,,,,,6162965933,2444,34427414
 Greece,GRC,Europe,2026,,,,,0,0,10405134
-Guatemala,GTM,Americas,2026,,,,,0,2752,18406359
+Guatemala,GTM,Americas,2026,,,,,3355265180,2752,18406359
 Guinea,GIN,Africa,2026,,,,,0,1085,14754785
-Guinea-Bissau,GNB,Africa,2026,,,,,0,706,2201352
+Guinea-Bissau,GNB,Africa,2026,,,,,3637950,706,2201352
 Haiti,HTI,Americas,2026,,,,,0,4758,11772557
-Honduras,HND,Americas,2026,,,,,0,278,10825703
+Honduras,HND,Americas,2026,,,,,931400913,278,10825703
 "Hong Kong SAR, China",HKG,Asia,2024,,,,,0,0,7524100
 Hungary,HUN,Europe,2026,,,,,0,0,9562065
 Iceland,ISL,Europe,2026,,,,,0,0,386506
-India,IND,Asia,2026,,,,,0,58637,1450935791
-Indonesia,IDN,Asia,2026,,,,,0,7646,283487931
+India,IND,Asia,2026,,,,,2885058048,58637,1450935791
+Indonesia,IDN,Asia,2026,,,,,100659125084,7646,283487931
 "Iran, Islamic Rep.",IRN,Asia,2024,,,,,0,0,91567738
-Iraq,IRQ,Asia,2026,,,,,0,127190,46042015
-Ireland,IRL,Europe,2026,,,,,0,0,5395790
+Iraq,IRQ,Asia,2026,,,,,774161216,127190,46042015
+Ireland,IRL,Europe,2026,,,,,359719760,0,5395790
 Israel,ISR,Asia,2026,,,,,0,2387,9974400
 Italy,ITA,Europe,2026,,,,,0,0,58952704
-Jamaica,JAM,Americas,2026,,,,,0,116,2839175
-Japan,JPN,Asia,2026,,,,,0,0,123975371
-Jordan,JOR,Asia,2026,,,,,0,101,11552876
-Kenya,KEN,Africa,2026,,,,,0,5744,56432944
+Jamaica,JAM,Americas,2026,,,,,152155283,116,2839175
+Japan,JPN,Asia,2026,,,,,40535397376,0,123975371
+Jordan,JOR,Asia,2026,,,,,67980318,101,11552876
+Kenya,KEN,Africa,2026,,,,,1869443734,5744,56432944
 "Korea, Rep.",KOR,Asia,2024,,,,,0,0,51751065
 Kuwait,KWT,Asia,2026,,,,,0,1829,4897263
-Lebanon,LBN,Asia,2026,,,,,0,12398,5805962
-Lesotho,LSO,Africa,2026,,,,,0,78,2337423
-Liberia,LBR,Africa,2026,,,,,0,23122,5612817
+Lebanon,LBN,Asia,2026,,,,,1331915,12398,5805962
+Lesotho,LSO,Africa,2026,,,,,170491888,78,2337423
+Liberia,LBR,Africa,2026,,,,,2582626664,23122,5612817
 Libya,LBY,Africa,2026,,,,,0,13904,7381023
-Madagascar,MDG,Africa,2026,,,,,0,192,31964956
-Malawi,MWI,Africa,2026,,,,,0,0,21655286
-Malaysia,MYS,Asia,2026,,,,,0,72,35557673
-Mali,MLI,Africa,2026,,,,,0,19600,24478595
+Madagascar,MDG,Africa,2026,,,,,9296510607,192,31964956
+Malawi,MWI,Africa,2026,,,,,882062610,0,21655286
+Malaysia,MYS,Asia,2026,,,,,2207019938,72,35557673
+Mali,MLI,Africa,2026,,,,,1221426146,19600,24478595
 Mauritania,MRT,Africa,2026,,,,,0,183,5169395
-Mauritius,MUS,Africa,2026,,,,,0,0,1245779
-Mexico,MEX,Americas,2026,,,,,0,143341,130861007
-Mongolia,MNG,Asia,2026,,,,,0,0,3524788
-Montenegro,MNE,Europe,2026,,,,,0,11,623525
-Morocco,MAR,Africa,2026,,,,,0,51,38081173
-Mozambique,MOZ,Africa,2026,,,,,0,12366,34631766
-Myanmar,MMR,Asia,2026,,,,,0,33501,54500091
-Namibia,NAM,Africa,2026,,,,,0,423,3030131
-Nepal,NPL,Asia,2026,,,,,0,12313,29651054
+Mauritius,MUS,Africa,2026,,,,,38126796,0,1245779
+Mexico,MEX,Americas,2026,,,,,63563554672,143341,130861007
+Mongolia,MNG,Asia,2026,,,,,1322291412,0,3524788
+Montenegro,MNE,Europe,2026,,,,,74215177,11,623525
+Morocco,MAR,Africa,2026,,,,,3174239276,51,38081173
+Mozambique,MOZ,Africa,2026,,,,,47760238877,12366,34631766
+Myanmar,MMR,Asia,2026,,,,,14628936083,33501,54500091
+Namibia,NAM,Africa,2026,,,,,1274962,423,3030131
+Nepal,NPL,Asia,2026,,,,,29576721842,12313,29651054
 Netherlands,NLD,Europe,2026,,,,,0,2,17993485
-New Zealand,NZL,Oceania,2026,,,,,0,0,5287500
-Nicaragua,NIC,Americas,2026,,,,,0,565,6916140
-Niger,NER,Africa,2026,,,,,0,8308,27032412
-Nigeria,NGA,Africa,2026,,,,,0,75232,232679478
-Norway,NOR,Europe,2026,,,,,0,0,5572279
+New Zealand,NZL,Oceania,2026,,,,,10932953592,0,5287500
+Nicaragua,NIC,Americas,2026,,,,,405661560,565,6916140
+Niger,NER,Africa,2026,,,,,4795300075,8308,27032412
+Nigeria,NGA,Africa,2026,,,,,15326844928,75232,232679478
+Norway,NOR,Europe,2026,,,,,135532064,0,5572279
 Oman,OMN,Asia,2026,,,,,0,2,5281538
-Pakistan,PAK,Asia,2026,,,,,0,50655,251269164
-Panama,PAN,Americas,2026,,,,,0,921,4515577
-Paraguay,PRY,Americas,2026,,,,,0,151,6929153
-Peru,PER,Americas,2026,,,,,0,7452,34217848
-Philippines,PHL,Asia,2026,,,,,0,20779,115843670
+Pakistan,PAK,Asia,2026,,,,,2774805907,50655,251269164
+Panama,PAN,Americas,2026,,,,,652362729,921,4515577
+Paraguay,PRY,Americas,2026,,,,,15010922111,151,6929153
+Peru,PER,Americas,2026,,,,,49342065064,7452,34217848
+Philippines,PHL,Asia,2026,,,,,91036396640,20779,115843670
 Poland,POL,Europe,2026,,,,,0,2,36559233
 Portugal,PRT,Europe,2026,,,,,0,0,10694681
 Puerto Rico (US),PRI,Americas,2024,,,,,0,0,3203295
-Romania,ROU,Europe,2026,,,,,0,448,19051804
-Rwanda,RWA,Africa,2026,,,,,0,794000,14256567
+Romania,ROU,Europe,2026,,,,,5673995045,448,19051804
+Rwanda,RWA,Africa,2026,,,,,11978214,794000,14256567
 Sao Tome and Principe,STP,Africa,2026,,,,,0,0,235536
 Saudi Arabia,SAU,Asia,2026,,,,,0,600,35300280
-Senegal,SEN,Africa,2026,,,,,0,1928,18501984
-Serbia,SRB,Europe,2026,,,,,0,893,6586476
-Sierra Leone,SLE,Africa,2026,,,,,0,20327,8642022
+Senegal,SEN,Africa,2026,,,,,435939415,1928,18501984
+Serbia,SRB,Europe,2026,,,,,677383400,893,6586476
+Sierra Leone,SLE,Africa,2026,,,,,85679935,20327,8642022
 Singapore,SGP,Asia,2026,,,,,0,0,6036860
 Slovak Republic,SVK,Europe,2024,,,,,0,0,5422069
-Slovenia,SVN,Europe,2026,,,,,0,64,2127400
+Slovenia,SVN,Europe,2026,,,,,4896579535,64,2127400
 "Somalia, Fed. Rep.",SOM,Africa,2024,,,,,0,0,19009151
-South Africa,ZAF,Africa,2026,,,,,0,4969,64007187
+South Africa,ZAF,Africa,2026,,,,,22688203534,4969,64007187
 Spain,ESP,Europe,2026,,,,,0,254,48848840
-Sri Lanka,LKA,Asia,2026,,,,,0,65491,21916000
-Sudan,SDN,Africa,2026,,,,,0,82166,50448963
-Sweden,SWE,Europe,2026,,,,,0,5,10569709
-Switzerland,CHE,Europe,2026,,,,,0,0,9005582
+Sri Lanka,LKA,Asia,2026,,,,,617666780,65491,21916000
+Sudan,SDN,Africa,2026,,,,,2403546316,82166,50448963
+Sweden,SWE,Europe,2026,,,,,916558733,5,10569709
+Switzerland,CHE,Europe,2026,,,,,23231042368,0,9005582
 Syrian Arab Republic,SYR,Asia,2024,,,,,0,0,24672760
-Tanzania,TZA,Africa,2026,,,,,0,91,68560157
+Tanzania,TZA,Africa,2026,,,,,2970657111,91,68560157
 Thailand,THA,Asia,2026,,,,,0,4345,71668011
-Togo,TGO,Africa,2026,,,,,0,753,9515236
-Trinidad and Tobago,TTO,Americas,2026,,,,,0,39,1368333
-Tunisia,TUN,Africa,2026,,,,,0,289,12277109
+Togo,TGO,Africa,2026,,,,,734213814,753,9515236
+Trinidad and Tobago,TTO,Americas,2026,,,,,135723314,39,1368333
+Tunisia,TUN,Africa,2026,,,,,129992642,289,12277109
 Turkiye,TUR,Europe,2024,,,,,0,0,85518661
-Uganda,UGA,Africa,2026,,,,,0,16754,50015092
+Uganda,UGA,Africa,2026,,,,,12763830225,16754,50015092
 United Kingdom,GBR,Europe,2026,,,,,0,218,69226000
-United States,USA,Americas,2026,,,,,0,3015,340110988
-Uruguay,URY,Americas,2026,,,,,0,0,3386588
+United States,USA,Americas,2026,,,,,290032711680,3015,340110988
+Uruguay,URY,Americas,2026,,,,,2262701246,0,3386588
 "Venezuela, RB",VEN,Americas,2024,,,,,0,0,28405543
 Viet Nam,VNM,Asia,2024,,,,,0,0,100987686
 West Bank and Gaza,PSE,Asia,2024,,,,,0,0,5289152
 "Yemen, Rep.",YEM,Asia,2024,,,,,0,0,40583164
-Zambia,ZMB,Africa,2026,,,,,0,164,21314956
-Zimbabwe,ZWE,Africa,2026,,,,,0,304,16634373
+Zambia,ZMB,Africa,2026,,,,,102371150,164,21314956
+Zimbabwe,ZWE,Africa,2026,,,,,13526586,304,16634373

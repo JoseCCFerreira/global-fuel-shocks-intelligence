@@ -78,7 +78,7 @@ dbt build --profiles-dir .
 
 ## Geographic Intelligence
 
-The Streamlit map uses ISO-3 country codes for a world choropleth and focus-point layer. The current country-level public data has strong coverage for disasters, conflict deaths and population, while the World Bank pump-price extracts currently return no usable gasoline/diesel values by country. The app handles that explicitly: available metrics render on the map, and unavailable pump-price metrics show a coverage warning instead of a blank chart.
+The Streamlit map uses ISO-3 country codes for a world choropleth and focus-point layer. Disaster losses now use a country-level OWID/EM-DAT extract, so catastrophe maps render by country instead of using a global disaster-type aggregate. The current World Bank pump-price extracts still return no usable gasoline/diesel values by country. The app handles that explicitly: available metrics render on the map, and unavailable pump-price metrics show a coverage warning instead of a blank chart.
 
 The geographic page includes:
 
