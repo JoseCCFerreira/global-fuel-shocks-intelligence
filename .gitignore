@@ -1,0 +1,9 @@
+.DS_Store
+.venv/
+.venv-dbt/
+__pycache__/
+*.pyc
+*.log
+dbt_fuel_shocks/target/
+dbt_fuel_shocks/logs/
+dbt_fuel_shocks/.user.yml

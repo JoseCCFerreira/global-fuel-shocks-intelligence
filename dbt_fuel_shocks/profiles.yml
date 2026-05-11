@@ -1,0 +1,7 @@
+fuel_shocks_intelligence:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ../data/processed/fuel_shocks.duckdb
+      threads: 4

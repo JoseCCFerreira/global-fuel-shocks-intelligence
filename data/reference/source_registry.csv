@@ -1,0 +1,6 @@
+source,url,coverage,use
+World Bank Commodity Markets Pink Sheet,https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx,"Monthly commodity prices, usually from 1960 onward depending on series.","Global crude oil, natural gas and energy commodity price tracking."
+World Bank Indicators API,https://api.worldbank.org/v2/,Annual country-level indicators.,"Population, gasoline pump prices and diesel pump prices when available."
+Our World in Data / EM-DAT,https://ourworldindata.org/grapher/economic-damage-from-natural-disasters.csv?v=1&csvType=full&useColumnShortNames=false,Natural disaster damage by country/year where available.,Event severity proxy for catastrophe correlation and event windows.
+Our World in Data / UCDP,https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country.csv?download-format=tabular,Armed conflict deaths by country/year where available.,War/conflict severity proxy.
+BIS/DataHub residential property prices,https://datahub.io/core/house-prices-global/_r/-/archive/WS_SPP_csv_col.csv,Residential property price indexes for selected countries.,House-price variation comparison.

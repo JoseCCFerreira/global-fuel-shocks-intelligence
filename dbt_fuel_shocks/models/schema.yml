@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: stg_fuel_price_features
+    description: Monthly fuel and energy price features from the World Bank Pink Sheet.
+    columns:
+      - name: month
+        tests: [not_null]
+      - name: series
+        tests: [not_null]
+  - name: stg_country_context
+    description: Annual country context with population, retail fuel, disasters, conflicts and house prices.
+  - name: mart_fuel_price_shocks
+    description: Annual fuel shock mart with volatility and jump counts.
+  - name: mart_country_macro_context
+    description: Country-year macro and event context.
+  - name: mart_global_decision_features
+    description: Combined global features for analysis and forecasting.

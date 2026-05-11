@@ -1,0 +1,205 @@
+series,forecast_month,baseline_forecast,method
+"COAL_AUS | Coal, Australian",2026-05-01,114.1875,last_12_month_average
+"COAL_AUS | Coal, Australian",2026-06-01,114.1875,last_12_month_average
+"COAL_AUS | Coal, Australian",2026-07-01,114.1875,last_12_month_average
+"COAL_AUS | Coal, Australian",2026-08-01,114.1875,last_12_month_average
+"COAL_AUS | Coal, Australian",2026-09-01,114.1875,last_12_month_average
+"COAL_AUS | Coal, Australian",2026-10-01,114.1875,last_12_month_average
+"COAL_AUS | Coal, Australian",2026-11-01,114.1875,last_12_month_average
+"COAL_AUS | Coal, Australian",2026-12-01,114.1875,last_12_month_average
+"COAL_AUS | Coal, Australian",2027-01-01,114.1875,last_12_month_average
+"COAL_AUS | Coal, Australian",2027-02-01,114.1875,last_12_month_average
+"COAL_AUS | Coal, Australian",2027-03-01,114.1875,last_12_month_average
+"COAL_AUS | Coal, Australian",2027-04-01,114.1875,last_12_month_average
+"COAL_SAFRICA | Coal, South African **",2026-05-01,92.64240308909666,last_12_month_average
+"COAL_SAFRICA | Coal, South African **",2026-06-01,92.64240308909666,last_12_month_average
+"COAL_SAFRICA | Coal, South African **",2026-07-01,92.64240308909666,last_12_month_average
+"COAL_SAFRICA | Coal, South African **",2026-08-01,92.64240308909666,last_12_month_average
+"COAL_SAFRICA | Coal, South African **",2026-09-01,92.64240308909666,last_12_month_average
+"COAL_SAFRICA | Coal, South African **",2026-10-01,92.64240308909666,last_12_month_average
+"COAL_SAFRICA | Coal, South African **",2026-11-01,92.64240308909666,last_12_month_average
+"COAL_SAFRICA | Coal, South African **",2026-12-01,92.64240308909666,last_12_month_average
+"COAL_SAFRICA | Coal, South African **",2027-01-01,92.64240308909666,last_12_month_average
+"COAL_SAFRICA | Coal, South African **",2027-02-01,92.64240308909666,last_12_month_average
+"COAL_SAFRICA | Coal, South African **",2027-03-01,92.64240308909666,last_12_month_average
+"COAL_SAFRICA | Coal, South African **",2027-04-01,92.64240308909666,last_12_month_average
+COCONUT_OIL | Coconut oil,2026-05-01,2510.112181660314,last_12_month_average
+COCONUT_OIL | Coconut oil,2026-06-01,2510.112181660314,last_12_month_average
+COCONUT_OIL | Coconut oil,2026-07-01,2510.112181660314,last_12_month_average
+COCONUT_OIL | Coconut oil,2026-08-01,2510.112181660314,last_12_month_average
+COCONUT_OIL | Coconut oil,2026-09-01,2510.112181660314,last_12_month_average
+COCONUT_OIL | Coconut oil,2026-10-01,2510.112181660314,last_12_month_average
+COCONUT_OIL | Coconut oil,2026-11-01,2510.112181660314,last_12_month_average
+COCONUT_OIL | Coconut oil,2026-12-01,2510.112181660314,last_12_month_average
+COCONUT_OIL | Coconut oil,2027-01-01,2510.112181660314,last_12_month_average
+COCONUT_OIL | Coconut oil,2027-02-01,2510.112181660314,last_12_month_average
+COCONUT_OIL | Coconut oil,2027-03-01,2510.112181660314,last_12_month_average
+COCONUT_OIL | Coconut oil,2027-04-01,2510.112181660314,last_12_month_average
+"CRUDE_BRENT | Crude oil, Brent",2026-05-01,74.64441666666666,last_12_month_average
+"CRUDE_BRENT | Crude oil, Brent",2026-06-01,74.64441666666666,last_12_month_average
+"CRUDE_BRENT | Crude oil, Brent",2026-07-01,74.64441666666666,last_12_month_average
+"CRUDE_BRENT | Crude oil, Brent",2026-08-01,74.64441666666666,last_12_month_average
+"CRUDE_BRENT | Crude oil, Brent",2026-09-01,74.64441666666666,last_12_month_average
+"CRUDE_BRENT | Crude oil, Brent",2026-10-01,74.64441666666666,last_12_month_average
+"CRUDE_BRENT | Crude oil, Brent",2026-11-01,74.64441666666666,last_12_month_average
+"CRUDE_BRENT | Crude oil, Brent",2026-12-01,74.64441666666666,last_12_month_average
+"CRUDE_BRENT | Crude oil, Brent",2027-01-01,74.64441666666666,last_12_month_average
+"CRUDE_BRENT | Crude oil, Brent",2027-02-01,74.64441666666666,last_12_month_average
+"CRUDE_BRENT | Crude oil, Brent",2027-03-01,74.64441666666666,last_12_month_average
+"CRUDE_BRENT | Crude oil, Brent",2027-04-01,74.64441666666666,last_12_month_average
+"CRUDE_DUBAI | Crude oil, Dubai",2026-05-01,70.27583333333332,last_12_month_average
+"CRUDE_DUBAI | Crude oil, Dubai",2026-06-01,70.27583333333332,last_12_month_average
+"CRUDE_DUBAI | Crude oil, Dubai",2026-07-01,70.27583333333332,last_12_month_average
+"CRUDE_DUBAI | Crude oil, Dubai",2026-08-01,70.27583333333332,last_12_month_average
+"CRUDE_DUBAI | Crude oil, Dubai",2026-09-01,70.27583333333332,last_12_month_average
+"CRUDE_DUBAI | Crude oil, Dubai",2026-10-01,70.27583333333332,last_12_month_average
+"CRUDE_DUBAI | Crude oil, Dubai",2026-11-01,70.27583333333332,last_12_month_average
+"CRUDE_DUBAI | Crude oil, Dubai",2026-12-01,70.27583333333332,last_12_month_average
+"CRUDE_DUBAI | Crude oil, Dubai",2027-01-01,70.27583333333332,last_12_month_average
+"CRUDE_DUBAI | Crude oil, Dubai",2027-02-01,70.27583333333332,last_12_month_average
+"CRUDE_DUBAI | Crude oil, Dubai",2027-03-01,70.27583333333332,last_12_month_average
+"CRUDE_DUBAI | Crude oil, Dubai",2027-04-01,70.27583333333332,last_12_month_average
+"CRUDE_PETRO | Crude oil, average",2026-05-01,70.97286111111084,last_12_month_average
+"CRUDE_PETRO | Crude oil, average",2026-06-01,70.97286111111084,last_12_month_average
+"CRUDE_PETRO | Crude oil, average",2026-07-01,70.97286111111084,last_12_month_average
+"CRUDE_PETRO | Crude oil, average",2026-08-01,70.97286111111084,last_12_month_average
+"CRUDE_PETRO | Crude oil, average",2026-09-01,70.97286111111084,last_12_month_average
+"CRUDE_PETRO | Crude oil, average",2026-10-01,70.97286111111084,last_12_month_average
+"CRUDE_PETRO | Crude oil, average",2026-11-01,70.97286111111084,last_12_month_average
+"CRUDE_PETRO | Crude oil, average",2026-12-01,70.97286111111084,last_12_month_average
+"CRUDE_PETRO | Crude oil, average",2027-01-01,70.97286111111084,last_12_month_average
+"CRUDE_PETRO | Crude oil, average",2027-02-01,70.97286111111084,last_12_month_average
+"CRUDE_PETRO | Crude oil, average",2027-03-01,70.97286111111084,last_12_month_average
+"CRUDE_PETRO | Crude oil, average",2027-04-01,70.97286111111084,last_12_month_average
+"CRUDE_WTI | Crude oil, WTI",2026-05-01,67.99833333333333,last_12_month_average
+"CRUDE_WTI | Crude oil, WTI",2026-06-01,67.99833333333333,last_12_month_average
+"CRUDE_WTI | Crude oil, WTI",2026-07-01,67.99833333333333,last_12_month_average
+"CRUDE_WTI | Crude oil, WTI",2026-08-01,67.99833333333333,last_12_month_average
+"CRUDE_WTI | Crude oil, WTI",2026-09-01,67.99833333333333,last_12_month_average
+"CRUDE_WTI | Crude oil, WTI",2026-10-01,67.99833333333333,last_12_month_average
+"CRUDE_WTI | Crude oil, WTI",2026-11-01,67.99833333333333,last_12_month_average
+"CRUDE_WTI | Crude oil, WTI",2026-12-01,67.99833333333333,last_12_month_average
+"CRUDE_WTI | Crude oil, WTI",2027-01-01,67.99833333333333,last_12_month_average
+"CRUDE_WTI | Crude oil, WTI",2027-02-01,67.99833333333333,last_12_month_average
+"CRUDE_WTI | Crude oil, WTI",2027-03-01,67.99833333333333,last_12_month_average
+"CRUDE_WTI | Crude oil, WTI",2027-04-01,67.99833333333333,last_12_month_average
+GRNUT_OIL | Groundnut oil **,2026-05-01,1703.131967677485,last_12_month_average
+GRNUT_OIL | Groundnut oil **,2026-06-01,1703.131967677485,last_12_month_average
+GRNUT_OIL | Groundnut oil **,2026-07-01,1703.131967677485,last_12_month_average
+GRNUT_OIL | Groundnut oil **,2026-08-01,1703.131967677485,last_12_month_average
+GRNUT_OIL | Groundnut oil **,2026-09-01,1703.131967677485,last_12_month_average
+GRNUT_OIL | Groundnut oil **,2026-10-01,1703.131967677485,last_12_month_average
+GRNUT_OIL | Groundnut oil **,2026-11-01,1703.131967677485,last_12_month_average
+GRNUT_OIL | Groundnut oil **,2026-12-01,1703.131967677485,last_12_month_average
+GRNUT_OIL | Groundnut oil **,2027-01-01,1703.131967677485,last_12_month_average
+GRNUT_OIL | Groundnut oil **,2027-02-01,1703.131967677485,last_12_month_average
+GRNUT_OIL | Groundnut oil **,2027-03-01,1703.131967677485,last_12_month_average
+GRNUT_OIL | Groundnut oil **,2027-04-01,1703.131967677485,last_12_month_average
+"NGAS_EUR | Natural gas, Europe",2026-05-01,12.084822188464166,last_12_month_average
+"NGAS_EUR | Natural gas, Europe",2026-06-01,12.084822188464166,last_12_month_average
+"NGAS_EUR | Natural gas, Europe",2026-07-01,12.084822188464166,last_12_month_average
+"NGAS_EUR | Natural gas, Europe",2026-08-01,12.084822188464166,last_12_month_average
+"NGAS_EUR | Natural gas, Europe",2026-09-01,12.084822188464166,last_12_month_average
+"NGAS_EUR | Natural gas, Europe",2026-10-01,12.084822188464166,last_12_month_average
+"NGAS_EUR | Natural gas, Europe",2026-11-01,12.084822188464166,last_12_month_average
+"NGAS_EUR | Natural gas, Europe",2026-12-01,12.084822188464166,last_12_month_average
+"NGAS_EUR | Natural gas, Europe",2027-01-01,12.084822188464166,last_12_month_average
+"NGAS_EUR | Natural gas, Europe",2027-02-01,12.084822188464166,last_12_month_average
+"NGAS_EUR | Natural gas, Europe",2027-03-01,12.084822188464166,last_12_month_average
+"NGAS_EUR | Natural gas, Europe",2027-04-01,12.084822188464166,last_12_month_average
+"NGAS_JP | Liquefied natural gas, Japan",2026-05-01,11.596083778208333,last_12_month_average
+"NGAS_JP | Liquefied natural gas, Japan",2026-06-01,11.596083778208333,last_12_month_average
+"NGAS_JP | Liquefied natural gas, Japan",2026-07-01,11.596083778208333,last_12_month_average
+"NGAS_JP | Liquefied natural gas, Japan",2026-08-01,11.596083778208333,last_12_month_average
+"NGAS_JP | Liquefied natural gas, Japan",2026-09-01,11.596083778208333,last_12_month_average
+"NGAS_JP | Liquefied natural gas, Japan",2026-10-01,11.596083778208333,last_12_month_average
+"NGAS_JP | Liquefied natural gas, Japan",2026-11-01,11.596083778208333,last_12_month_average
+"NGAS_JP | Liquefied natural gas, Japan",2026-12-01,11.596083778208333,last_12_month_average
+"NGAS_JP | Liquefied natural gas, Japan",2027-01-01,11.596083778208333,last_12_month_average
+"NGAS_JP | Liquefied natural gas, Japan",2027-02-01,11.596083778208333,last_12_month_average
+"NGAS_JP | Liquefied natural gas, Japan",2027-03-01,11.596083778208333,last_12_month_average
+"NGAS_JP | Liquefied natural gas, Japan",2027-04-01,11.596083778208333,last_12_month_average
+"NGAS_US | Natural gas, US",2026-05-01,3.6230749999999996,last_12_month_average
+"NGAS_US | Natural gas, US",2026-06-01,3.6230749999999996,last_12_month_average
+"NGAS_US | Natural gas, US",2026-07-01,3.6230749999999996,last_12_month_average
+"NGAS_US | Natural gas, US",2026-08-01,3.6230749999999996,last_12_month_average
+"NGAS_US | Natural gas, US",2026-09-01,3.6230749999999996,last_12_month_average
+"NGAS_US | Natural gas, US",2026-10-01,3.6230749999999996,last_12_month_average
+"NGAS_US | Natural gas, US",2026-11-01,3.6230749999999996,last_12_month_average
+"NGAS_US | Natural gas, US",2026-12-01,3.6230749999999996,last_12_month_average
+"NGAS_US | Natural gas, US",2027-01-01,3.6230749999999996,last_12_month_average
+"NGAS_US | Natural gas, US",2027-02-01,3.6230749999999996,last_12_month_average
+"NGAS_US | Natural gas, US",2027-03-01,3.6230749999999996,last_12_month_average
+"NGAS_US | Natural gas, US",2027-04-01,3.6230749999999996,last_12_month_average
+PALM_OIL | Palm oil,2026-05-01,1015.3837371448775,last_12_month_average
+PALM_OIL | Palm oil,2026-06-01,1015.3837371448775,last_12_month_average
+PALM_OIL | Palm oil,2026-07-01,1015.3837371448775,last_12_month_average
+PALM_OIL | Palm oil,2026-08-01,1015.3837371448775,last_12_month_average
+PALM_OIL | Palm oil,2026-09-01,1015.3837371448775,last_12_month_average
+PALM_OIL | Palm oil,2026-10-01,1015.3837371448775,last_12_month_average
+PALM_OIL | Palm oil,2026-11-01,1015.3837371448775,last_12_month_average
+PALM_OIL | Palm oil,2026-12-01,1015.3837371448775,last_12_month_average
+PALM_OIL | Palm oil,2027-01-01,1015.3837371448775,last_12_month_average
+PALM_OIL | Palm oil,2027-02-01,1015.3837371448775,last_12_month_average
+PALM_OIL | Palm oil,2027-03-01,1015.3837371448775,last_12_month_average
+PALM_OIL | Palm oil,2027-04-01,1015.3837371448775,last_12_month_average
+PLMKRNL_OIL | Palm kernel oil,2026-05-01,2221.704668213321,last_12_month_average
+PLMKRNL_OIL | Palm kernel oil,2026-06-01,2221.704668213321,last_12_month_average
+PLMKRNL_OIL | Palm kernel oil,2026-07-01,2221.704668213321,last_12_month_average
+PLMKRNL_OIL | Palm kernel oil,2026-08-01,2221.704668213321,last_12_month_average
+PLMKRNL_OIL | Palm kernel oil,2026-09-01,2221.704668213321,last_12_month_average
+PLMKRNL_OIL | Palm kernel oil,2026-10-01,2221.704668213321,last_12_month_average
+PLMKRNL_OIL | Palm kernel oil,2026-11-01,2221.704668213321,last_12_month_average
+PLMKRNL_OIL | Palm kernel oil,2026-12-01,2221.704668213321,last_12_month_average
+PLMKRNL_OIL | Palm kernel oil,2027-01-01,2221.704668213321,last_12_month_average
+PLMKRNL_OIL | Palm kernel oil,2027-02-01,2221.704668213321,last_12_month_average
+PLMKRNL_OIL | Palm kernel oil,2027-03-01,2221.704668213321,last_12_month_average
+PLMKRNL_OIL | Palm kernel oil,2027-04-01,2221.704668213321,last_12_month_average
+RAPESEED_OIL | Rapeseed oil,2026-05-01,1257.5494593719359,last_12_month_average
+RAPESEED_OIL | Rapeseed oil,2026-06-01,1257.5494593719359,last_12_month_average
+RAPESEED_OIL | Rapeseed oil,2026-07-01,1257.5494593719359,last_12_month_average
+RAPESEED_OIL | Rapeseed oil,2026-08-01,1257.5494593719359,last_12_month_average
+RAPESEED_OIL | Rapeseed oil,2026-09-01,1257.5494593719359,last_12_month_average
+RAPESEED_OIL | Rapeseed oil,2026-10-01,1257.5494593719359,last_12_month_average
+RAPESEED_OIL | Rapeseed oil,2026-11-01,1257.5494593719359,last_12_month_average
+RAPESEED_OIL | Rapeseed oil,2026-12-01,1257.5494593719359,last_12_month_average
+RAPESEED_OIL | Rapeseed oil,2027-01-01,1257.5494593719359,last_12_month_average
+RAPESEED_OIL | Rapeseed oil,2027-02-01,1257.5494593719359,last_12_month_average
+RAPESEED_OIL | Rapeseed oil,2027-03-01,1257.5494593719359,last_12_month_average
+RAPESEED_OIL | Rapeseed oil,2027-04-01,1257.5494593719359,last_12_month_average
+SOYBEAN_OIL | Soybean oil,2026-05-01,1248.3545916337282,last_12_month_average
+SOYBEAN_OIL | Soybean oil,2026-06-01,1248.3545916337282,last_12_month_average
+SOYBEAN_OIL | Soybean oil,2026-07-01,1248.3545916337282,last_12_month_average
+SOYBEAN_OIL | Soybean oil,2026-08-01,1248.3545916337282,last_12_month_average
+SOYBEAN_OIL | Soybean oil,2026-09-01,1248.3545916337282,last_12_month_average
+SOYBEAN_OIL | Soybean oil,2026-10-01,1248.3545916337282,last_12_month_average
+SOYBEAN_OIL | Soybean oil,2026-11-01,1248.3545916337282,last_12_month_average
+SOYBEAN_OIL | Soybean oil,2026-12-01,1248.3545916337282,last_12_month_average
+SOYBEAN_OIL | Soybean oil,2027-01-01,1248.3545916337282,last_12_month_average
+SOYBEAN_OIL | Soybean oil,2027-02-01,1248.3545916337282,last_12_month_average
+SOYBEAN_OIL | Soybean oil,2027-03-01,1248.3545916337282,last_12_month_average
+SOYBEAN_OIL | Soybean oil,2027-04-01,1248.3545916337282,last_12_month_average
+SUNFLOWER_OIL | Sunflower oil,2026-05-01,1342.3476638649984,last_12_month_average
+SUNFLOWER_OIL | Sunflower oil,2026-06-01,1342.3476638649984,last_12_month_average
+SUNFLOWER_OIL | Sunflower oil,2026-07-01,1342.3476638649984,last_12_month_average
+SUNFLOWER_OIL | Sunflower oil,2026-08-01,1342.3476638649984,last_12_month_average
+SUNFLOWER_OIL | Sunflower oil,2026-09-01,1342.3476638649984,last_12_month_average
+SUNFLOWER_OIL | Sunflower oil,2026-10-01,1342.3476638649984,last_12_month_average
+SUNFLOWER_OIL | Sunflower oil,2026-11-01,1342.3476638649984,last_12_month_average
+SUNFLOWER_OIL | Sunflower oil,2026-12-01,1342.3476638649984,last_12_month_average
+SUNFLOWER_OIL | Sunflower oil,2027-01-01,1342.3476638649984,last_12_month_average
+SUNFLOWER_OIL | Sunflower oil,2027-02-01,1342.3476638649984,last_12_month_average
+SUNFLOWER_OIL | Sunflower oil,2027-03-01,1342.3476638649984,last_12_month_average
+SUNFLOWER_OIL | Sunflower oil,2027-04-01,1342.3476638649984,last_12_month_average
+iNATGAS | Natural gas index,2026-05-01,109.30354027036249,last_12_month_average
+iNATGAS | Natural gas index,2026-06-01,109.30354027036249,last_12_month_average
+iNATGAS | Natural gas index,2026-07-01,109.30354027036249,last_12_month_average
+iNATGAS | Natural gas index,2026-08-01,109.30354027036249,last_12_month_average
+iNATGAS | Natural gas index,2026-09-01,109.30354027036249,last_12_month_average
+iNATGAS | Natural gas index,2026-10-01,109.30354027036249,last_12_month_average
+iNATGAS | Natural gas index,2026-11-01,109.30354027036249,last_12_month_average
+iNATGAS | Natural gas index,2026-12-01,109.30354027036249,last_12_month_average
+iNATGAS | Natural gas index,2027-01-01,109.30354027036249,last_12_month_average
+iNATGAS | Natural gas index,2027-02-01,109.30354027036249,last_12_month_average
+iNATGAS | Natural gas index,2027-03-01,109.30354027036249,last_12_month_average
+iNATGAS | Natural gas index,2027-04-01,109.30354027036249,last_12_month_average

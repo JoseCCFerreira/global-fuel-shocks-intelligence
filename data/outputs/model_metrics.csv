@@ -1,0 +1,3 @@
+model,target,accuracy,mae,r2
+RandomForestClassifier,price_jump_flag,0.9737,,
+RandomForestRegressor,mom_pct_change,,4.6879,0.1364

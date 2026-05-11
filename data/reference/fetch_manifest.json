@@ -1,0 +1,15 @@
+{
+  "raw_files": [
+    "house_prices_global.csv",
+    "owid_conflict_deaths.csv",
+    "owid_disaster_damage.csv",
+    "world_bank_diesel_pump_price_usd_liter.csv",
+    "world_bank_gasoline_pump_price_usd_liter.csv",
+    "world_bank_pink_sheet_monthly.xlsx",
+    "world_bank_population_total.csv"
+  ],
+  "sources": [
+    "fetch_manifest.json",
+    "source_registry.csv"
+  ]
+}
