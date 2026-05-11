@@ -1,0 +1,11 @@
+model,feature,importance
+RandomForestClassifier,value,0.20333413576067427
+RandomForestClassifier,rolling_12m_volatility,0.3341038463048479
+RandomForestClassifier,yoy_pct_change,0.25493520150030163
+RandomForestClassifier,month_number,0.11418340214221108
+RandomForestClassifier,series_code,0.09344341429196527
+RandomForestRegressor,value,0.16753570899295864
+RandomForestRegressor,rolling_12m_volatility,0.23896215393651993
+RandomForestRegressor,yoy_pct_change,0.41806785702996146
+RandomForestRegressor,month_number,0.11626510525499649
+RandomForestRegressor,series_code,0.059169174785563355

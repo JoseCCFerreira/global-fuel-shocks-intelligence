@@ -31,7 +31,7 @@
         <article><h3>Shock Detection</h3><p>Z-score jump flags and event windows around abnormal movements.</p></article>
         <article><h3>Wars & Disasters</h3><p>Conflict deaths and disaster damage as severity proxies for event correlation.</p></article>
         <article><h3>Housing & Population</h3><p>Comparison with house-price indexes and country/world population.</p></article>
-        <article><h3>Geographic Heatmap</h3><p>World maps with country focus points and variation over time.</p></article>
+        <article><h3>Geographic Heatmap</h3><p>World choropleth maps with country focus points, regional distributions and metric availability checks.</p></article>
       </div>
     </section>
     <section>
@@ -44,7 +44,15 @@
     </section>
     <section>
       <h2>Interactive App</h2>
-      <p>The Streamlit app explores price series, shock months, country context, correlations, model metrics and baseline forecasts.</p>
+      <p>The Streamlit app explores price series, shock months, country context, world heatmaps, regional catastrophe distributions, country-level variation, correlations, model metrics, feature importance and baseline forecasts.</p>
+    </section>
+    <section>
+      <h2>Forecasting & Machine Learning</h2>
+      <p>The machine learning layer compares a Random Forest classifier for fuel-price jump risk with a Random Forest regressor for monthly price variation. The forecast page shows a 36-month baseline projection, volatility bands and the variables that contributed most to model decisions.</p>
+    </section>
+    <section>
+      <h2>Data Coverage Note</h2>
+      <p>Country-level disasters, conflicts and population have usable coverage. The current World Bank gasoline and diesel pump-price extracts do not provide usable country-level values, so the app warns clearly when those metrics are selected and uses global fuel series for annual fuel-price comparison.</p>
     </section>
     <section class="cta">
       <h2>Next Step</h2>

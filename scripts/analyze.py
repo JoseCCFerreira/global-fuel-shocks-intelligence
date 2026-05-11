@@ -52,13 +52,21 @@ def main() -> None:
                 continue
             last = group.iloc[-1]
             rolling = group["value"].tail(12).mean()
-            for step in range(1, 13):
+            volatility = group["value"].tail(36).std()
+            jump_risk = group["price_jump_flag"].tail(120).mean()
+            last_yoy = group["yoy_pct_change"].dropna().tail(12).mean()
+            for step in range(1, 37):
+                trend_multiplier = (1 + (last_yoy / 100) / 12) ** step if pd.notna(last_yoy) else 1
+                baseline = rolling * trend_multiplier
                 forecast.append(
                     {
                         "series": series,
                         "forecast_month": pd.to_datetime(last["month"]) + pd.DateOffset(months=step),
-                        "baseline_forecast": rolling,
-                        "method": "last_12_month_average",
+                        "baseline_forecast": baseline,
+                        "lower_band": max(0, baseline - volatility),
+                        "upper_band": baseline + volatility,
+                        "historical_jump_risk": jump_risk,
+                        "method": "12m_average_plus_recent_yoy_trend",
                     }
                 )
         pd.DataFrame(forecast).to_csv(OUTPUTS / "forecast_baseline.csv", index=False)
@@ -68,12 +76,17 @@ def main() -> None:
         ml["series_code"] = ml["series"].astype("category").cat.codes
         features = ["value", "rolling_12m_volatility", "yoy_pct_change", "month_number", "series_code"]
         metrics = []
+        importances = []
         if len(ml) > 200 and ml["price_jump_flag"].nunique() > 1:
             X_train, X_test, y_train, y_test = train_test_split(ml[features], ml["price_jump_flag"], test_size=0.25, random_state=42, stratify=ml["price_jump_flag"])
             clf = RandomForestClassifier(n_estimators=150, min_samples_leaf=5, random_state=42)
             clf.fit(X_train, y_train)
             pred = clf.predict(X_test)
             metrics.append({"model": "RandomForestClassifier", "target": "price_jump_flag", "accuracy": round(accuracy_score(y_test, pred), 4)})
+            importances.extend(
+                {"model": "RandomForestClassifier", "feature": feature, "importance": importance}
+                for feature, importance in zip(features, clf.feature_importances_)
+            )
         if len(ml) > 200:
             reg_data = ml.dropna(subset=["mom_pct_change"])
             X_train, X_test, y_train, y_test = train_test_split(reg_data[features], reg_data["mom_pct_change"], test_size=0.25, random_state=42)
@@ -81,7 +94,12 @@ def main() -> None:
             reg.fit(X_train, y_train)
             pred = reg.predict(X_test)
             metrics.append({"model": "RandomForestRegressor", "target": "mom_pct_change", "mae": round(mean_absolute_error(y_test, pred), 4), "r2": round(r2_score(y_test, pred), 4)})
+            importances.extend(
+                {"model": "RandomForestRegressor", "feature": feature, "importance": importance}
+                for feature, importance in zip(features, reg.feature_importances_)
+            )
         pd.DataFrame(metrics).to_csv(OUTPUTS / "model_metrics.csv", index=False)
+        pd.DataFrame(importances).to_csv(OUTPUTS / "model_feature_importance.csv", index=False)
 
     if not context.empty:
         numeric = context.select_dtypes(include=[np.number])
@@ -99,6 +117,15 @@ def main() -> None:
             latest_population=("population_total", "last"),
         )
         focus.to_csv(OUTPUTS / "country_focus_points.csv", index=False)
+        distribution = geo_context.groupby(["year", "continent"], dropna=False, as_index=False).agg(
+            countries=("country", "nunique"),
+            disaster_damage_usd=("disaster_damage_usd", "sum"),
+            conflict_deaths=("conflict_deaths", "sum"),
+            population_total=("population_total", "sum"),
+            avg_gasoline_pump_price=("gasoline_pump_price_usd_liter", "mean"),
+            avg_diesel_pump_price=("diesel_pump_price_usd_liter", "mean"),
+        )
+        distribution.to_csv(OUTPUTS / "geo_distribution_by_year_region.csv", index=False)
 
     conn.close()
     print(f"Analysis outputs written to {OUTPUTS}")

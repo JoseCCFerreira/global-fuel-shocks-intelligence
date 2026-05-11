@@ -38,11 +38,13 @@ def load_data() -> dict[str, pd.DataFrame]:
         "events": read_csv(OUTPUTS / "event_study_summary.csv"),
         "forecast": read_csv(OUTPUTS / "forecast_baseline.csv", parse_dates=["forecast_month"]),
         "metrics": read_csv(OUTPUTS / "model_metrics.csv"),
+        "feature_importance": read_csv(OUTPUTS / "model_feature_importance.csv"),
         "corr": read_csv(OUTPUTS / "correlation_matrix.csv", index_col=0),
         "context_corr": read_csv(OUTPUTS / "country_context_correlation.csv", index_col=0),
         "country_context": query("select * from mart_country_macro_context"),
         "geo_context": read_csv(PROCESSED / "country_geo_context.csv"),
         "focus_points": read_csv(OUTPUTS / "country_focus_points.csv"),
+        "geo_distribution": read_csv(OUTPUTS / "geo_distribution_by_year_region.csv"),
         "global_features": query("select * from mart_global_decision_features"),
         "sources": read_csv(REFERENCE / "source_registry.csv"),
     }
@@ -120,30 +122,57 @@ def world_geo_heatmap() -> None:
     data = load_data()
     geo = data["geo_context"]
     focus = data["focus_points"]
+    distribution = data["geo_distribution"]
+    yearly = data["yearly"]
     st.title("World Geo Heatmap & Focus Points")
     st.caption("Country-year geographic view of fuel variation, disasters, conflicts, population and retail pump prices.")
     if geo.empty:
         st.warning("No geographic context available. Run the pipeline first.")
         return
 
-    metrics = [
-        "gasoline_pump_price_usd_liter",
-        "diesel_pump_price_usd_liter",
-        "gasoline_price_pct_change",
-        "diesel_price_pct_change",
-        "disaster_damage_usd",
-        "conflict_deaths",
-        "population_total",
-        "population_pct_change",
-    ]
-    years = sorted(geo["year"].dropna().astype(int).unique())
-    selected_year = st.slider("Map year", min(years), max(years), max(years))
-    metric = st.selectbox("Map metric", metrics)
+    metric_labels = {
+        "disaster_damage_usd": "Disaster damage, USD",
+        "conflict_deaths": "Conflict deaths",
+        "population_total": "Population",
+        "population_pct_change": "Population change, %",
+        "gasoline_pump_price_usd_liter": "Gasoline pump price, USD/liter",
+        "diesel_pump_price_usd_liter": "Diesel pump price, USD/liter",
+        "gasoline_price_pct_change": "Gasoline pump price change, %",
+        "diesel_price_pct_change": "Diesel pump price change, %",
+    }
+    metrics = list(metric_labels)
+    availability = {metric: int(pd.to_numeric(geo[metric], errors="coerce").notna().sum()) for metric in metrics if metric in geo.columns}
+    default_metric = next((m for m in ["disaster_damage_usd", "conflict_deaths", "population_total"] if availability.get(m, 0) > 0), metrics[0])
+    metric = st.selectbox(
+        "Map metric",
+        metrics,
+        index=metrics.index(default_metric),
+        format_func=lambda value: f"{metric_labels[value]} ({availability.get(value, 0):,} values)",
+    )
+    geo[metric] = pd.to_numeric(geo[metric], errors="coerce")
+    valid_years = sorted(geo.loc[geo[metric].notna(), "year"].dropna().astype(int).unique())
+    if not valid_years:
+        st.warning(
+            "This country-level metric has no coverage in the current public source. "
+            "Use disasters, conflicts or population, or add a richer retail fuel-price source by country."
+        )
+        st.dataframe(pd.DataFrame({"metric": list(availability), "non_null_values": list(availability.values())}), width="stretch", hide_index=True)
+        return
+
+    selected_year = st.slider("Map year", min(valid_years), max(valid_years), max(valid_years))
     selected = geo[(geo["year"] == selected_year) & geo["country_code"].notna()].copy()
     selected[metric] = pd.to_numeric(selected[metric], errors="coerce")
     map_data = selected.dropna(subset=[metric])
+    if map_data.empty:
+        closest_year = max((year for year in valid_years if year <= selected_year), default=valid_years[-1])
+        selected_year = closest_year
+        selected = geo[(geo["year"] == selected_year) & geo["country_code"].notna()].copy()
+        map_data = selected.dropna(subset=[metric])
 
-    top_focus = map_data.reindex(map_data[metric].abs().sort_values(ascending=False).index).head(25)
+    top_focus = map_data.reindex(map_data[metric].abs().sort_values(ascending=False).index).head(25).copy()
+    top_focus["focus_size"] = top_focus[metric].abs().fillna(0)
+    if not top_focus.empty and top_focus["focus_size"].max() == 0:
+        top_focus["focus_size"] = 1
     c = st.columns(4)
     c[0].metric("Countries on map", map_data["country"].nunique())
     c[1].metric("Year", selected_year)
@@ -154,28 +183,31 @@ def world_geo_heatmap() -> None:
         px.choropleth(
             map_data,
             locations="country_code",
+            locationmode="ISO-3",
             color=metric,
             hover_name="country",
             hover_data=["continent", "gasoline_pump_price_usd_liter", "diesel_pump_price_usd_liter", "disaster_damage_usd", "conflict_deaths", "population_total"],
             color_continuous_scale="Turbo",
-            title=f"World heatmap: {metric} in {selected_year}",
+            title=f"World heatmap: {metric_labels[metric]} in {selected_year}",
         ),
         width="stretch",
     )
-    st.plotly_chart(
-        px.scatter_geo(
-            top_focus,
-            locations="country_code",
-            size=metric,
-            color=metric,
-            hover_name="country",
-            hover_data=["continent", "gasoline_price_pct_change", "diesel_price_pct_change", "disaster_damage_usd", "conflict_deaths"],
-            projection="natural earth",
-            title="Focus points: highest absolute metric values",
-            color_continuous_scale="Reds",
-        ),
-        width="stretch",
-    )
+    if not top_focus.empty:
+        st.plotly_chart(
+            px.scatter_geo(
+                top_focus,
+                locations="country_code",
+                locationmode="ISO-3",
+                size="focus_size",
+                color=metric,
+                hover_name="country",
+                hover_data=["continent", "gasoline_price_pct_change", "diesel_price_pct_change", "disaster_damage_usd", "conflict_deaths"],
+                projection="natural earth",
+                title="Focus points: highest absolute metric values",
+                color_continuous_scale="Reds",
+            ),
+            width="stretch",
+        )
 
     st.subheader("Variation through time")
     countries = sorted(geo["country"].dropna().unique())
@@ -187,6 +219,44 @@ def world_geo_heatmap() -> None:
     st.subheader("Statistical view")
     numeric = geo[metrics].apply(pd.to_numeric, errors="coerce")
     st.plotly_chart(px.imshow(numeric.corr(), text_auto=True, aspect="auto", title="Geographic context correlation heatmap"), width="stretch")
+
+    st.subheader("Distribution by year, region and country")
+    if not distribution.empty:
+        distribution_metric = st.selectbox(
+            "Regional distribution metric",
+            ["disaster_damage_usd", "conflict_deaths", "population_total", "avg_gasoline_pump_price", "avg_diesel_pump_price"],
+            format_func=lambda value: value.replace("_", " ").title(),
+        )
+        distribution[distribution_metric] = pd.to_numeric(distribution[distribution_metric], errors="coerce")
+        regional = distribution.dropna(subset=[distribution_metric])
+        if regional.empty:
+            st.info("No regional values are available for this metric in the current dataset.")
+        else:
+            st.plotly_chart(
+                px.area(regional, x="year", y=distribution_metric, color="continent", title=f"{distribution_metric} by year and region"),
+                width="stretch",
+            )
+            st.plotly_chart(
+                px.bar(regional[regional["year"] == int(regional["year"].max())], x="continent", y=distribution_metric, color="continent", title=f"Latest regional distribution: {distribution_metric}"),
+                width="stretch",
+            )
+    if not yearly.empty:
+        fuel_series = sorted(yearly["series"].dropna().unique())
+        chosen_series = st.multiselect("Global fuel series for annual comparison", fuel_series, default=fuel_series[:5])
+        yearly_metric_labels = {
+            "fuel_price_avg": "Average price",
+            "fuel_yoy_avg": "Average YoY change",
+            "fuel_volatility": "Volatility",
+            "jump_count": "Jump months",
+        }
+        fuel_metric = st.selectbox(
+            "Global fuel metric",
+            list(yearly_metric_labels),
+            format_func=lambda value: yearly_metric_labels[value],
+        )
+        annual_fuel = yearly[yearly["series"].isin(chosen_series)] if chosen_series else yearly
+        st.plotly_chart(px.line(annual_fuel, x="year", y=fuel_metric, color="series", title=f"Global fuel {yearly_metric_labels[fuel_metric]} by year"), width="stretch")
+
     st.dataframe(top_focus.sort_values(metric, ascending=False), width="stretch", hide_index=True)
     if not focus.empty:
         st.download_button("Download focus points CSV", focus.to_csv(index=False), "country_focus_points.csv", "text/csv")
@@ -205,13 +275,38 @@ def forecasting_export() -> None:
     data = load_data()
     forecast = data["forecast"]
     metrics = data["metrics"]
+    feature_importance = data["feature_importance"]
     st.title("Forecasting & Export")
-    st.caption("Baseline forecast and model evaluation. Future versions can add ARIMA/SARIMAX and regime models.")
+    st.caption("Baseline forecast, model evaluation and feature importance for fuel-price jump analysis.")
     st.dataframe(metrics, width="stretch", hide_index=True)
+    if not feature_importance.empty:
+        st.plotly_chart(
+            px.bar(
+                feature_importance.sort_values("importance", ascending=False),
+                x="feature",
+                y="importance",
+                color="model",
+                barmode="group",
+                title="Machine learning feature importance",
+            ),
+            width="stretch",
+        )
     if not forecast.empty:
         selected = st.multiselect("Forecast series", sorted(forecast["series"].unique()), default=sorted(forecast["series"].unique())[:6])
         f = forecast[forecast["series"].isin(selected)]
-        st.plotly_chart(px.line(f, x="forecast_month", y="baseline_forecast", color="series", title="12-month moving-average forecast"), width="stretch")
+        st.plotly_chart(px.line(f, x="forecast_month", y="baseline_forecast", color="series", title="36-month baseline forecast"), width="stretch")
+        bands = f.melt(
+            id_vars=["series", "forecast_month"],
+            value_vars=[col for col in ["lower_band", "baseline_forecast", "upper_band"] if col in f.columns],
+            var_name="forecast_band",
+            value_name="value",
+        )
+        st.plotly_chart(px.line(bands, x="forecast_month", y="value", color="series", line_dash="forecast_band", title="Forecast bands: lower, baseline and upper"), width="stretch")
+        st.plotly_chart(px.bar(f.drop_duplicates("series"), x="series", y="historical_jump_risk", title="Historical jump risk used by the forecast"), width="stretch")
+        st.info(
+            "Forecast method: 12-month average plus recent year-over-year trend, with a volatility band. "
+            "It is a transparent baseline for decision support, not a causal model of wars or catastrophes."
+        )
     export = data["global_features"]
     st.download_button("Download global decision features CSV", export.to_csv(index=False), "global_fuel_decision_features.csv", "text/csv")
     st.download_button("Download forecast CSV", forecast.to_csv(index=False), "global_fuel_forecast.csv", "text/csv")

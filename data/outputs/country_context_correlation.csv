@@ -1,7 +1,7 @@
 ,year,population_total,gasoline_pump_price_usd_liter,diesel_pump_price_usd_liter,disaster_damage_usd,conflict_deaths
-year,1.0,0.09142130121259001,,,0.41002623857790454,0.0031918854144790125
-population_total,0.09142130121259001,1.0,,,,0.475356864193485
+year,1.0,0.09142130121258127,,,0.4100262385779044,0.003191885414479973
+population_total,0.09142130121258127,1.0,,,,0.47535686419348244
 gasoline_pump_price_usd_liter,,,,,,
 diesel_pump_price_usd_liter,,,,,,
-disaster_damage_usd,0.41002623857790454,,,,1.0,
-conflict_deaths,0.0031918854144790125,0.475356864193485,,,,1.0
+disaster_damage_usd,0.4100262385779044,,,,1.0,
+conflict_deaths,0.003191885414479973,0.47535686419348244,,,,1.0
