@@ -16,7 +16,8 @@ The project is prepared for:
 - dbt transformation and tests
 - statistical analysis
 - forecasting and jump-risk modelling
-- later HTML reporting
+- Streamlit exploration and export
+- HTML reporting
 
 ## Key Question
 
@@ -31,7 +32,7 @@ Public data sources
   -> DuckDB analytical database
   -> dbt staging/intermediate/marts
   -> statistics and forecasts
-  -> HTML report later
+  -> Streamlit app and HTML report
 ```
 
 ## Data Sources
@@ -51,6 +52,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python3 scripts/run_pipeline.py
+streamlit run app.py --server.port 8590
 ```
 
 For dbt:
@@ -71,6 +73,23 @@ dbt build --profiles-dir .
 - `data/outputs/correlation_matrix.csv`
 - `data/outputs/event_study_summary.csv`
 - `data/outputs/forecast_baseline.csv`
+
+## Streamlit App
+
+Run:
+
+```bash
+streamlit run app.py --server.port 8590
+```
+
+Pages:
+
+- Overview
+- Price Series Explorer
+- Shock Detection & Events
+- Country Context
+- Correlation Analysis
+- Forecasting & Export
 
 ## Methodology
 
